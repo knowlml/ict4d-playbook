@@ -16,7 +16,6 @@
 <div id="navigation_bar">
    <div class="outer_container">
     <div class="inner_container">
-
       <a href="#introduction"><h4>Peace Corps Technology for Development Playbook</h4></a>
       <ul class="nav">
         {% for play in site.plays %}
@@ -33,6 +32,7 @@
 <div id="introduction">
   <div class="outer_container">
     <div class="inner_container">
+            <a id="peace_logo" href="http://peacecorps.github.com/t4d-playbook/" title="Link to the Peace Corps T4D Playbook"><img src='/assets/images/peace_logo.png' alt="Logo of the Peace Corps"></a>
       {% capture introduction %}{% include introduction.md %}{% endcapture %}
       {{ introduction | markdownify }}
       <div class="button">

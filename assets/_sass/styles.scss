@@ -2,9 +2,8 @@
 @import "neat/neat";
 
 // Colors
-$atlantic_blue:       #36435a;
-$pacific_blue:        #3A96B7;
-$miami_vice_blue:     #3A96B7;
+$pacific_blue:        #0099CD;  
+$jasper:			  #D63647;
 $white:               #fff;
 $black:               #333;
 $gray:                #4D4D4D;
@@ -12,7 +11,7 @@ $background_white:    #fff;
 $gray_blue:           #a5a8b7;
 
 // Fonts
-$serif:               'Merriweather', Georgia, serif;
+$serif:               'Lato-light', Georgia, serif;
 $sans-serif:          'Open Sans', sans-serif;
 
 // Mobile Breakpoints
@@ -25,10 +24,6 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
     font-family: $serif;
     margin: 0;
     line-height: 28px;
-  }
-
-  body#techfar_landing_page {
-    background: $atlantic_blue;
   }
 
   a {
@@ -92,7 +87,7 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
   h4 {
     font-family: $serif;
     font-size: 18px;
-    color: $miami_vice_blue;
+    color: $jasper;
     margin-bottom: 0;
   }
 
@@ -148,7 +143,7 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
     }
     a:hover {
       background: $white;
-      color: $atlantic_blue;
+      color: $pacific_blue;
       text-decoration: none;
     }
     @include media($mobile) {
@@ -169,7 +164,7 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
 
 
   #introduction {
-    background: $atlantic_blue;
+    background: $pacific_blue;
     color: $white;
     padding-bottom: 60px;
 
@@ -179,10 +174,10 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
 
     a:hover {
       background: $white;
-      color: $atlantic_blue;
+      color: $pacific_blue;
     }
 
-    #usds_logo {
+    #peacecorps_logo {
       display: inline-block;
       img {
         max-height: 100%;
@@ -190,7 +185,7 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
       }
     }
     
-    #usds_logo:hover {
+    #peacecorps_logo:hover {
       background: $gray_blue;
     }
 
@@ -228,7 +223,7 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
     position: fixed;
     width: 100%;
     height: 0;
-    background: $atlantic_blue;
+    background: $pacific_blue;
     color: $white;
     font-family: $serif;
     .outer_container {
@@ -258,7 +253,7 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
 
     .active {
       a {
-        background: $miami_vice_blue;
+        background: $jasper;
         color: $white;
         text-decoration: none;
       }
@@ -281,7 +276,7 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
         border: 1px solid $pacific_blue;
       }
       a:hover {
-        background: $miami_vice_blue;
+        background: $jasper;
         color: $white;
         text-decoration: none;
       }
@@ -345,7 +340,7 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
   }
 
   #plays_index {
-    background: $miami_vice_blue;
+    background: $jasper;
     color: $black;
     padding-bottom: 60px;
 
@@ -380,7 +375,7 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
       }
 
       a:hover {
-        color: $black;
+        color: $pacific_blue;
       }
     }
     
@@ -442,7 +437,7 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
     }
     h4 {
       margin-top: 0px;
-      color: $atlantic_blue;
+      color: $pacific_blue;
     }
 
     h2 {
@@ -479,8 +474,8 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
     }
 
     a {
-      color: $atlantic_blue;
-      // border-bottom: 1px solid $atlantic_blue;
+      color: $pacific_blue;
+      // border-bottom: 1px solid $pacific_blue;
       text-decoration: underline;
       display: inline-block;
     }
@@ -488,7 +483,7 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
     a:hover {
       color: $white;
       // border-bottom: 1px solid $white;
-      background: $atlantic_blue;
+      background: $pacific_blue;
     }
 
     @include media($mobile) {
