@@ -161,13 +161,13 @@
     #introduction a:hover {
       background: white;
       color: #0099cd; }
-    #introduction #peacecorps_logo {
+    #introduction #peace_logo {
       display: inline-block; }
-      #introduction #peacecorps_logo img {
+      #introduction #peace_logo img {
         max-height: 100%;
         max-width: 100%; }
-    #introduction #peacecorps_logo:hover {
-      background: #a5a8b7; }
+    #introduction #peace_logo:hover {
+      background: #0099cd; }
     #introduction .button a {
       text-decoration: none; }
     #introduction p {

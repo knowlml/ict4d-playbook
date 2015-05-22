@@ -177,7 +177,7 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
       color: $pacific_blue;
     }
 
-    #peacecorps_logo {
+    #peace_logo {
       display: inline-block;
       img {
         max-height: 100%;
@@ -185,8 +185,8 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
       }
     }
     
-    #peacecorps_logo:hover {
-      background: $gray_blue;
+    #peace_logo:hover {
+      background: $pacific_blue;
     }
 
     .button a {
