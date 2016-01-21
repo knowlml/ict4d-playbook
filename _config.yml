@@ -3,8 +3,7 @@ title: The Peace Corps ICT4D Playbook
 short_title: ICT4D Playbook
 description: |
     Principles, projects, and resource toolkits for Peace Corps Volunteers on using data and technology in their service.
-baseurl: http://peacecorps.github.com/ict4d-playbook
-url: http://peacecorps.github.com/ict4d-playbook # the base hostname & protocol for your site
+baseurl: http://peacecorps.github.io/ict4d-playbook
 github_username:  peacecorps
 github_repo:  ict4d-playbook
 
