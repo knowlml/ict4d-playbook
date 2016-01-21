@@ -4,10 +4,10 @@
     <title>The Peace Corps ICT4D Playbook</title>
     <description>Principles, projects, and resource toolkits for Peace Corps Volunteers on using data and technology in their service.
 </description>
-    <link>http://peacecorps.github.io/ict4d-playbook/</link>
-    <atom:link href="http://peacecorps.github.io/ict4d-playbook/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 20 Jan 2016 21:37:36 -0500</pubDate>
-    <lastBuildDate>Wed, 20 Jan 2016 21:37:36 -0500</lastBuildDate>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Wed, 20 Jan 2016 22:23:37 -0500</pubDate>
+    <lastBuildDate>Wed, 20 Jan 2016 22:23:37 -0500</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
   </channel>
