@@ -98,7 +98,7 @@ ___
 
 - [Stories of Innovation (UNICEF)](http://unicefstories.org/) -- UNICEF Innovation is an interdisciplinary team of individuals around the world tasked with identifying, prototyping, and scaling technologies and practices that strengthen UNICEF’s work.
 
-- [TechSoup - Technology for Good | Technology for Global Good](http://www.techsoup.global/) -- equips changemakers with transformative technology solutions and skills they need to improve lives globally and locally. Whether you have resources to give or solutions you need to get, TechSoup facilitates the exchange. A trusted partner for nearly three decades, TechSoup provides both the digital platforms and in-person experiences that enable people to work together toward a more equitable world.
+- [TechSoup - Technology for Good - Technology for Global Good](http://www.techsoup.global/) -- equips changemakers with transformative technology solutions and skills they need to improve lives globally and locally. Whether you have resources to give or solutions you need to get, TechSoup facilitates the exchange. A trusted partner for nearly three decades, TechSoup provides both the digital platforms and in-person experiences that enable people to work together toward a more equitable world.
 
 - [Technology Salon](http://technologysalon.org) -- Forum where technology and development professionals could share their opinions on emerging trends in ICT and international development in an intimate and informal discussion around technology’s impact on donor-sponsored technical assistance delivery, and private enterprise driven economic development, facilitated by technology.
 

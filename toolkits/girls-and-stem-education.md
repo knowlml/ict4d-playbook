@@ -59,7 +59,7 @@ For more information on how is focusing on empowering girls and women in educati
 
 - [I Spent Spring Break Teaching Girls to Code - Medium](https://medium.com/bright/i-spent-spring-break-teaching-girls-to-code-ef14cf2ddf84) -- Christina Li discusses the impact of teaching C++ to high school girls.
 
-- [10 myths about girls’ empowerment and mobile learning | Wait... What?](http://lindaraftree.com/2015/03/11/10-myths-about-girls-empowerment-and-mobile-learning/) -- Great rundown of pervasive myths in the development community about the situation and things that work or don't work in digital empowerment focused on women.
+- [10 myths about girls’ empowerment and mobile learning - Wait... What?](http://lindaraftree.com/2015/03/11/10-myths-about-girls-empowerment-and-mobile-learning/) -- Great rundown of pervasive myths in the development community about the situation and things that work or don't work in digital empowerment focused on women.
 
 - [Missed Opportunities in Using Tech to Fight Violence Against Women - ICT Works](http://www.ictworks.org/2015/08/05/missed-opportunities-in-using-tech-to-fight-violence-against-women/) -- Another great rundown - things to consider in the development sector, written by Hera Hussain of [Chayne](http://chayn.co/).
 
@@ -137,7 +137,7 @@ There are some incredible organizations that are tackling this issue -- big and 
 
 GirlTech Uganda is a professional development program, with the mission of empowering secondary school girl students from all over Uganda to pursue advanced education and careers in science and technology.
 
-- [GirlTech Gallery | Peace Corps | Uganda](http://uganda.peacecorps.gov/content/camps/girltech-gallery) -- Peace Corps Uganada official page with lots of pictures of the camp this past year.
+- [GirlTech Gallery - Peace Corps - Uganda](http://uganda.peacecorps.gov/content/camps/girltech-gallery) -- Peace Corps Uganada official page with lots of pictures of the camp this past year.
 
 - [GirlTech Uganda](https://www.facebook.com/GirlTechUganda/) -- Facebook group to the camp with ongoing discussion.
 
@@ -153,7 +153,7 @@ A group of four rural Moldovan students [won the global Technovation challenge ]
 
 - [Celebrations & Lessons Learned from Technovation Challenge – SaraJoy](https://sarajoyhoy.wordpress.com/2015/05/12/celebrations-lessons-learned-from-technovation-challenge/) -- Followup from Volunteer.
 
-- [AFishInMoldova | Peace Corps Volunteer in Moldova](https://tfish812.wordpress.com/) -- Another account of a team this year from Moldova.
+- [AFishInMoldova - Peace Corps Volunteer in Moldova](https://tfish812.wordpress.com/) -- Another account of a team this year from Moldova.
 
 ##### 2014
 
@@ -179,7 +179,7 @@ A two-week camp primarily focused on technology, but also incorporating elements
 
 - [TechKobwa: Rwandan Camp for Girls in Information Technology](http://rwandancampforgirlsinit.blogspot.com/) -- Official blog for the camp.
 
-- [Girls acquire ICT skills to solve community problems - The New Times | Rwanda](http://www.newtimes.co.rw/section/article/2014-08-09/92373/) -- Article in Rwandan paper on the camp.
+- [Girls acquire ICT skills to solve community problems - The New Times - Rwanda](http://www.newtimes.co.rw/section/article/2014-08-09/92373/) -- Article in Rwandan paper on the camp.
 
 ##### 2014
 
@@ -197,7 +197,7 @@ A two-week camp primarily focused on technology, but also incorporating elements
 
 - [Bugesera to Host ICT Camp for Rwandan Female Secondary School Students> IGIHE.com English Version](http://en.igihe.com/news/bugesera-to-host-ict-camp-for-rwandan-female.html) -- Account of the first year of the camp.
 
-- [Peace Corps Volunteers Lead Tech Camp for Young Women in Rwanda | IIP Digital](http://iipdigital.usembassy.gov/st/english/article/2013/09/20130913282834.html#ixzz3dKhqWOoX) -- Account of the camp from State.
+- [Peace Corps Volunteers Lead Tech Camp for Young Women in Rwanda - IIP Digital](http://iipdigital.usembassy.gov/st/english/article/2013/09/20130913282834.html#ixzz3dKhqWOoX) -- Account of the camp from State.
 
 
 
@@ -209,13 +209,13 @@ Through a 24-hour hackathon, the Let Girls Learn Hackathon gathered teams from d
 
 - [Ghana adds modern twist to Stomp Out Malaria – Peace Corps Passport](http://passport.peacecorps.gov/2014/09/26/ghana-adds-modern-twist-to-stomp-out-malaria/) -- Write up of the Hackathon from PCV.
 
-- [Tap Tap SWAT! Ghana adds a modern twist to one of Peace Corps oldest initiatives |](http://stompoutmalaria.org/tap-tap-swat-ghana-adds-a-modern-twist-to-one-of-peace-corps-oldest-initiatives/) -- Write-up of the game on the STOMP website.
+- [Tap Tap SWAT! Ghana adds a modern twist to one of Peace Corps oldest initiatives](http://stompoutmalaria.org/tap-tap-swat-ghana-adds-a-modern-twist-to-one-of-peace-corps-oldest-initiatives/) -- Write-up of the game on the STOMP website.
 
 ##### 2015
 
 - [Kumasi Hub of Global Shapers Community and Peace Corps Present “Let Girls Learn Hackathon” - CNN iReport](http://ireport.cnn.com/docs/DOC-1260332) -- Blurb about the Hackathon.
 
-- [Kumasi Hub of Global Shapers Community and Peace Corps present Let Girls Learn Hackathon | Global Shapers Community](https://www.globalshapers.org/news/kumasi-hub-global-shapers-community-and-peace-corps-present-let-girls-learn-hackathon-6) -- Another blurb about the Hackathon.
+- [Kumasi Hub of Global Shapers Community and Peace Corps present Let Girls Learn Hackathon - Global Shapers Community](https://www.globalshapers.org/news/kumasi-hub-global-shapers-community-and-peace-corps-present-let-girls-learn-hackathon-6) -- Another blurb about the Hackathon.
 
 - [Jimmy Meet World](http://www.jimmymeetworld.net/page/2/) -- Volunteer blog who facilitated the LGL Hackathon.
 

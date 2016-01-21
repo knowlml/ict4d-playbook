@@ -198,6 +198,6 @@ Spanish, Portuguese, Chinese, and Greek.
 
 # Not-yet-reviewed
 
-- [Technology and Education | Box of Tricks](http://www.boxoftricks.net/internet-resouces-for-education/)
+- [Technology and Education - Box of Tricks](http://www.boxoftricks.net/internet-resouces-for-education/)
 
 
