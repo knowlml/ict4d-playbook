@@ -7,7 +7,7 @@ title: Program Areas
 
 1. [Digital Literacy](#digital-literacy)
 2. [ICTs in Education](#icts-in-education)
-3. [Technology in Monitoring & Evaluation](#technology-in-monitoring-&-evaluation)
+3. [Technology in Monitoring & Evaluation](#technology-in-monitoring-and-evaluation)
 4. [Design Thinking](#design-thinking)
 5. [Mapping and Geospatial Information](#mapping-and-geospatial-information)
 6. [Girls and STEM Education](#girls-and-stem-education)
@@ -73,7 +73,7 @@ ___
 
 
 
-#### 3. Technology in Monitoring & Evaluation
+#### 3. Technology in Monitoring and Evaluation
 
 > Volunteers use ICTs for more timely data, and more inclusive voice and feedback from counterparts and communities.
 

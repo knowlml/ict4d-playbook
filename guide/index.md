@@ -13,13 +13,21 @@ By leveraging ICTs for social and economic development (or ICT4D), Volunteers ar
 ### By the numbers*
 
 - 1-in-3 Volunteers report using ICTs as a significant part of their work activities (i.e. not just for contacting friends and family)
+
 - 66 countries (all of them) where Peace Corps Volunteers serve currently have ongoing ICT4D-related projects.
+
 - 11,500 ICT4D-related Activities reported on by Volunteers in FY2014.
+
 - 9% of Volunteers report that their ‘ICT for Development’ is part of their work in Peace Corps.
+
 - 1,000 RPCVs have served as IT Volunteers (from 2000 until 2008).
+
 - 21 Small Project Assistance (SPA) and Peace Corps Partnership Program grants awarded in FY 2014 categorized as ICT-related.
+
 - 8 Peace Corps Response position with an ICT4D-related focus filled in FY 2014.
+
 - 460 Subscribers to the ICT4D Newsletter written out of Peace Corps/Washington.
+
 - 530 Members of the Peace Corps ICT4D Facebook Group.
 
 \* *It should be noted that our system of reporting massively under-reports these types of intersectional data. Numbers from AVS and VRT FY2015.*
