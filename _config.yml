@@ -2,7 +2,7 @@
 title: The Peace Corps ICT4D Playbook
 short_title: ICT4D Playbook
 description: |
-    The ICT4D Playbook provides Peace Corps Volunteers and staff with principles, projects, and resource toolkits for using data and technology most effectively in their service.
+    Resources for Peace Corps Volunteers leveraging information, communication, and technology for development
 baseurl: http://peacecorps.github.io/ict4d-playbook
 github_username:  peacecorps
 github_repo:  ict4d-playbook
@@ -23,6 +23,64 @@ markdown: kramdown
 
 permalink: pretty
 
+
+meta:
+  resources:
+    label: resources
+    output: true
+    title: Resources
+  toolkits:
+    label: toolkits
+  guide:
+    label: guide
+    output: true
+    title: Guide
+    toc:
+      order:
+        - introduction
+        - strategy
+        - principles
+        - action-plan
+        - program-areas
+        - initiatives
+      chapters:
+        - title: 'Introduction'
+          slug: 'introduction'
+        - title: 'Strategy'
+          slug: 'strategy'
+        - title: 'Principles'
+          slug: 'principles'
+        - title: 'Action Plan'
+          slug: 'action-plan'
+        - title: "Program Areas"
+          slug: 'program-areas'
+        - title: 'Initiatives'
+          slug: 'initiatives'
+  contribute:
+    label: contribute
+    output: true
+    title: Contribute
+    has_translation: false
+    toc:
+      chapters:
+        - title: 'Contributing To The Handbook'
+        - title: 'Adding A Page'
+          slug: 'adding'
+        - title: 'Editing A Page'
+          slug: 'editing'
+        - title: 'Adding A Term To The Glossary'
+          slug: 'add-term'
+        - title: 'Adding A Resource To The Library'
+          slug: 'add-resource'
+        - title: 'Translating The Guide'
+          slug: 'translate-guide'
+        - title: 'Translating The Glossary'
+          slug: 'translate-glossary'
+        - title: 'Markdown Examples'
+          slug: 'markdown-examples'
+
+
+
 defaults:
   -
     scope:
@@ -38,18 +96,11 @@ defaults:
       section: posts
   -
     scope:
-      path: "toolkits"
-    values:
-      layout: toolkit
-      section: toolkits
-  -
-    scope:
       path: "resources"
     values:
       layout: toolkit
       section: resources
   -
-
     scope:
       path: "projects"
     values:
@@ -57,17 +108,24 @@ defaults:
       section: projects
   -
     scope:
-      path: ""
-    values:
-      layout: default
-      section:
-  -
-    scope:
       path: "community"
     values:
       layout: post
       section: community
+  -
+    scope:
+      path: "toolkits"
+    values:
+      layout: post
+      section: toolkit
+
 # related_projects:
+
+# collections:
+#   toolkits:
+#     output: true
+#     permalink: /toolkits/:title/
+
 #   -
 #       name: 
 #       link: 

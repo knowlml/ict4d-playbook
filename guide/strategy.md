@@ -55,14 +55,14 @@ ___
 
 ___
 
+<div class="note">
 
+The Peace Corps Niche
 
-> #### Sidebox: The Peace Corps Niche
+Peace Corps Volunteers are able to have the most impact when they operate at the intersection of national priorities and resources, community priorities and assets, and the Volunteers’ own knowledge, skills, and attitudes.
 
-> Peace Corps Volunteers are able to have the most impact when they operate at the intersection of national priorities and resources, community priorities and assets, and the Volunteers’ own knowledge, skills, and attitudes.
+Recognizing that particular roles and projects are going to be more easily accessible and achievable by Volunteers is key to the Peace Corps having the as much an impact as possible.
 
-> Recognizing that particular roles and projects are going to be more easily accessible and achievable by Volunteers is key to the Peace Corps having the as much an impact as possible.
-
-
+</div>
 ___
 

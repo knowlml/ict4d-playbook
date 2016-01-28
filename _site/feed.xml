@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>The Peace Corps ICT4D Playbook</title>
-    <description>The ICT4D Playbook provides Peace Corps Volunteers and staff with principles, projects, and resource toolkits for using data and technology most effectively in their service.
+    <description>Resources for Peace Corps Volunteers leveraging information, communication, and technology for development
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 27 Jan 2016 13:29:54 -0500</pubDate>
-    <lastBuildDate>Wed, 27 Jan 2016 13:29:54 -0500</lastBuildDate>
+    <pubDate>Wed, 27 Jan 2016 22:32:52 -0500</pubDate>
+    <lastBuildDate>Wed, 27 Jan 2016 22:32:52 -0500</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
   </channel>

@@ -1,5 +1,20 @@
+
+
+{% assign guide = site.meta.guide %}
+{% assign guide_entry_point = site.baseurl | append: '/guide/' %}
+
+
 {% assign url_parts = page.url | split: '/' %}
-{% assign url_last = url_parts |last  %}
+
+
+{% if page.url contains 'guide'%}
+  {% assign active_section = site.meta['guide'] %}
+{% elsif page.url contains 'toolkits'%}
+  {% assign active_section = site.meta['toolkit'] %}
+{% endif %}
+
+
+
 
 <header class="site-header">
   <a href="#menu" class="show-menu"><span class="text">Open the menu</span></a>
@@ -8,94 +23,53 @@
 
 <nav id="menu">
   <ul>
+
     <li>
       <a href="{{ site.baseurl }}/">Home</a>
     </li>
 
-    <li>
-      <a href="{{ site.baseurl }}/guide/">Guide</a>
+    <li {% if page.url contains 'guide' %}class="Selected"{% endif %}>
+      <a href="{{ guide_entry_point }}">{{ guide.title }}</a>
+
       <ul>
-        <li {% if url_last == 'guide' %}class="Selected"{% endif %}>
-          <a href="{{ site.baseurl }}/guide/">Introduction</a>
+
+        <!-- start navigation for guide section -->
+        {% for chapter in guide.toc.chapters %}
+        {% assign chapter_url = site.baseurl | append:  '/guide/' | append: chapter.slug | append: '/' %}
+        <li {% if page.url == chapter_url %}class="Selected"{% endif %}>
+          <a href="{{ chapter_url }}">{{ chapter.title }}</a>
         </li>
-        <li {% if url_last == 'strategy' %}class="Selected"{% endif %}>
-          <a href="{{ site.baseurl }}/guide/strategy/">Strategy</a>
-        </li>
-        <li {% if url_last == 'principles' %}class="Selected"{% endif %}>
-          <a href="{{ site.baseurl }}/guide/principles/">Principles</a>
-        </li>
-        <li {% if url_last == 'action-plan' %}class="Selected"{% endif %}>
-          <a href="{{ site.baseurl }}/guide/action-plan/">Action Plan</a>
-        </li>
-        <li {% if url_last == 'program-areas' %}class="Selected"{% endif %}>
-          <a href="{{ site.baseurl }}/guide/program-areas/">Program Areas</a>
-        </li>
-        <li {% if url_last == 'initiatives' %}class="Selected"{% endif %}>
-          <a href="{{ site.baseurl }}/guide/initiatives/">Initiatives</a>
-        </li>
-      </ul>
-    </li>
-    
+        {% endfor %}
+    </ul>
+
+
+
     <li {% if url_parts contains 'projects' %}class="Selected"{% endif %}>
       <a href="{{ site.baseurl }}/projects/">Volunteer Projects</a>
     </li>
 
     <li>
-      <a href="{{ site.baseurl }}/toolkits/">Resource Toolkits</a>
+      <a href="{{ site.baseurl }}/toolkits/">Toolkits</a>
       <ul>
         <li {% if url_last == 'toolkits' %}class="Selected"{% endif %}>
-          <a href="{{ site.baseurl }}/toolkits/">Contents</a>
+          <a href="{{ site.baseurl }}/toolkits/">Toolkits</a>
         </li>
         <li {% if url_last == 'digital-literacy' %}class="Selected"{% endif %}>
           <a href="{{ site.baseurl }}/toolkits/digital-literacy/">Digital Literacy</a>
         </li>
-        <li {% if url_last == 'icts-for-education' %}class="Selected"{% endif %}>
-          <a href="{{ site.baseurl }}/toolkits/icts-for-education/">ICTs for Education</a>
-        </li>
-        <li {% if url_last == 'girls-and-stem-education' %}class="Selected"{% endif %}>
-          <a href="{{ site.baseurl }}/toolkits/girls-and-stem-education/">Girls and STEM Education</a>
-        </li>
-        <li {% if url_last == 'gis-and-mapping' %}class="Selected"{% endif %}>
-          <a href="{{ site.baseurl }}/toolkits/gis-and-mapping/">GIS and Mapping</a>
-        </li>
-        <li {% if url_last == 'monitoring-and-evaluation-with-mobile-technologies' %}class="Selected"{% endif %}>
-          <a href="{{ site.baseurl }}/toolkits/monitoring-and-evaluation-with-mobile-technologies/">Monitoring and Evaluation with Mobile Technologies</a>
-        </li>
         <li {% if url_last == 'design-thinking' %}class="Selected"{% endif %}>
           <a href="{{ site.baseurl }}/toolkits/design-thinking/">Design Thinking</a>
-        </li>
-        <li {% if url_last == 'peace-corps-on-a-stick' %}class="Selected"{% endif %}>
-          <a href="{{ site.baseurl }}/toolkits/peace-corps-on-a-stick/">Peace Corps On-A-Stick</a>
-        </li>
-        <li {% if url_last == 'hardware' %}class="Selected"{% endif %}>
-          <a href="{{ site.baseurl }}/toolkits/hardware/">Hardware</a>
-        </li>
-        <li {% if url_last == 'mobile-apps-for-volunteers' %}class="Selected"{% endif %}>
-          <a href="{{ site.baseurl }}/toolkits/mobile-apps-for-volunteers/">Mobile Apps for Volunteers</a>
-        </li>
-        <li {% if url_last == 'web-tools-and-services' %}class="Selected"{% endif %}>
-          <a href="{{ site.baseurl }}/toolkits/web-tools-and-services/">Web Tools and Services</a>
-        </li>
-        <li {% if url_last == 'ict4d-for-volunteers' %}class="Selected"{% endif %}>
-          <a href="{{ site.baseurl }}/toolkits/ict4d-for-volunteers/">ICT4D for Volunteers</a>
-        </li>
-        <li {% if url_last == 'ict4d-for-staff' %}class="Selected"{% endif %}>
-          <a href="{{ site.baseurl }}/toolkits/ict4d-for-staff/">ICT4D for Staff</a>
-        </li>
-        <li {% if url_last == 'ict4d-course' %}class="Selected"{% endif %}>
-          <a href="{{ site.baseurl }}/toolkits/ict4d-course/">ICT4D Course</a>
-        </li>
-        <li {% if url_last == 'ict4d-links' %}class="Selected"{% endif %}>
-          <a href="{{ site.baseurl }}/toolkits/ict4d-links/">ICT4D Links</a>
-        </li>
-        <li {% if url_last == 'organizations' %}class="Selected"{% endif %}>
-          <a href="{{ site.baseurl }}/toolkits/organizations/">Organizations</a>
         </li>
       </ul>
     </li>
     
     <li {% if url_last ==  'community' %}class="Selected"{% endif %}>
       <a href="{{ site.baseurl }}/community/">Community</a>
+          <ul>
+      <li {% if url_last ==  'ict4d-committee-charter' %}class="Selected"{% endif %}>
+        <a href="{{ site.baseurl }}/resources/ict4d-committee-charter/">ICT4D Committee Charter</a>
+      </li>
+    </ul>
     </li>
 
 </nav>
