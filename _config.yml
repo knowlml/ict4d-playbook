@@ -21,103 +21,148 @@ github_repo:  ict4d-playbook
 
 markdown: kramdown
 
+kramdown:
+  parse_block_html: true
+
 permalink: pretty
 
 
 meta:
-  resources:
-    label: resources
-    output: true
-    title: Resources
-  toolkits:
-    label: toolkits
   guide:
-    label: guide
     output: true
-    title: Guide
     toc:
-      order:
-        - introduction
-        - strategy
-        - principles
-        - action-plan
-        - program-areas
-        - initiatives
       chapters:
         - title: 'Introduction'
           slug: 'introduction'
+        - title: 'Why ICT4D?'
+          slug: 'why-ict4d'
+        - title: 'What is ICT4D?'
+          slug: 'what-is-ict4d'
+        - title: 'Approach'
+          slug: 'approach'
         - title: 'Strategy'
           slug: 'strategy'
         - title: 'Principles'
           slug: 'principles'
-        - title: 'Action Plan'
-          slug: 'action-plan'
-        - title: "Program Areas"
-          slug: 'program-areas'
+        - title: "Program Areas Overview"
+          slug: 'program-areas-overview'
         - title: 'Initiatives'
           slug: 'initiatives'
-  contribute:
-    label: contribute
+        - title: 'ICT4D for Volunteers'
+          slug: 'ict4d-for-volunteers'
+        - title: 'ICT4D for Staff'
+          slug: 'ict4d-for-staff'
+        - title: 'FAQ'
+          slug: 'faq'
+        - title: 'History'
+          slug: 'history'
+        - title: 'Glossary'
+          slug: 'glossary'
+  program-areas:
     output: true
-    title: Contribute
-    has_translation: false
     toc:
       chapters:
-        - title: 'Contributing To The Handbook'
-        - title: 'Adding A Page'
-          slug: 'adding'
-        - title: 'Editing A Page'
-          slug: 'editing'
-        - title: 'Adding A Term To The Glossary'
-          slug: 'add-term'
-        - title: 'Adding A Resource To The Library'
-          slug: 'add-resource'
-        - title: 'Translating The Guide'
-          slug: 'translate-guide'
-        - title: 'Translating The Glossary'
-          slug: 'translate-glossary'
-        - title: 'Markdown Examples'
-          slug: 'markdown-examples'
+        - title: 'Digital Literacy'
+          slug: 'digital-literacy'
+        - title: 'ICTs for Education'
+          slug: 'icts-for-education'
+        - title: 'Technology for Monitoring & Evaluation'
+          slug: 'technology-for-monitoring-and-evaluation'
+        - title: 'Design Thinking'
+          slug: 'design-thinking'
+        - title: 'GIS and Mapping'
+          slug: 'gis-and-mapping'
+        - title: 'Girls and STEM Education'
+          slug: 'girls-and-stem-education'
+        - title: 'Mobile Communications'
+          slug: 'mobile-communications'
+        - title: 'Radio and Mass Media'
+          slug: 'radio-and-mass-media'
+        - title: 'Libraries and Maker Spaces'
+          slug: 'libraries-and-maker-spaces'
+        - title: 'Climate Change Education'
+          slug: 'climate-change-education'
+        - title: 'mHealth'
+          slug: 'mhealth'
+        - title: 'Media Production'
+          slug: 'media-production'
+        - title: 'Youth Workforce Employment'
+          slug: 'youth-workforce-employment'
+        - title: 'Appropriate Technology'
+          slug: 'appropriate-technology'
+  toolkits:
+    output: true
+    toc:
+      chapters:
+        - title: 'ICT4D Course'
+          slug: 'ict4d-course'
+        - title: 'Software and Apps for Volunteers'
+          slug: 'software-and-apps-for-volunteers'
+        - title: 'Starting An ICT4D Committee'
+          slug: 'starting-an-ict4d-committee'
+        - title: 'Web Tools And Services'
+          slug: 'web-tools-and-services'
+  volunteer-projects:
+    output: true
+    toc:
+      chapters:
+        - title: 'Bantu Babel - Zambia'
+          slug: 'bantu-babel'
+        - title: 'Let Girls Learn Hackathon - Ghana'
+          slug: 'let-girls-learn-hackathon-ghana'
+        - title: 'GirlTech - Uganda'
+          slug: 'girltech'
+        - title: 'Technovation Challenge - Moldova'
+          slug: 'technovation-challenge'
+        - title: 'Camp Sky - Malawi'
+          slug: 'camp-sky'
+        - title: 'Camp TechKobwa - Rwanda'
+          slug: 'camp-techkobwa'
+        - title: 'Other Projects'
+          slug: 'other-projects'
 
-
+  community:
+    output: true
 
 defaults:
   -
     scope:
+      path: ""
+    values:
+      layout: post
+      section:
+      authors:
+  -
+    scope:
       path: "guide"
     values:
-      layout: guide
+      layout: post
       section: guide
   -
     scope:
-      path: "posts"
+      path: "program-areas"
     values:
       layout: post
-      section: posts
-  -
-    scope:
-      path: "resources"
-    values:
-      layout: toolkit
-      section: resources
-  -
-    scope:
-      path: "projects"
-    values:
-      layout: project
-      section: projects
-  -
-    scope:
-      path: "community"
-    values:
-      layout: post
-      section: community
+      section: program-areas
   -
     scope:
       path: "toolkits"
     values:
       layout: post
       section: toolkit
+      type: toolkit
+  -
+    scope:
+      path: "volunteer-projects"
+    values:
+      layout: volunteer-project
+      section: volunteer-projects
+  -
+    scope:
+      path: "community"
+    values:
+      layout: post
+      section: community
 
 # related_projects:
 

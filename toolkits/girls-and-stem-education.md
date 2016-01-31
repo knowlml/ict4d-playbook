@@ -1,10 +1,14 @@
 ---
-title: Girls and STEM Education
+title: Girls and STEM Education Reader
 ---
 
+<p class="lead">Volunteers engage young women and girls in STEAM fields of study (science, technology, engineering, arts, and mathematics) to teach students critical thinking, creative capacity-building, solving real-world challenges, and promoting the value of education.</p>
 
+Activities engaged in by Volunteers might include:
 
-This toolkit is intended to support Volunteers who are interested in engaging girls and young women in STEM fields of education. 
+- clubs, camps, workshops, and conferences focused on girls as a target audience,
+- mentorship and coaching opportunities, and
+- curriculum development.
 
 
 
@@ -29,10 +33,6 @@ ___
 
 # Introduction
 
-
-
-##### Supporting STEM through Peace Corps service
-
 It is often the case that societies where Peace Corps Volunteers serve tells girls and women that they don’t belong in science, technology, engineering, and math (STEM) fields.
 
 We cannot afford to miss out on the talent and ingenuity of half the world’s population.
@@ -43,7 +43,7 @@ This is an area where there is a clear role for Volunteers—it aligns with a ch
 
 
 
-##### Connecting to Let Girls Learn
+### Let Girls Learn
 
 For more information on how is focusing on empowering girls and women in education, check out our [Let Girls Learn](https://letgirlslearn.peacecorps.gov/) program, part of First Lady Michelle Obama's [Let Girls Learn](https://www.whitehouse.gov/letgirlslearn) intiative -- and [watch the video](https://www.youtube.com/watch?v=-zhWU64TFk8).
 
@@ -113,7 +113,16 @@ There are some incredible organizations that are tackling this issue -- big and 
 
 
 
-# STEM in the Words of Volunteers
+# Volunteer Projects
+
+{% for page in site.pages %}
+{% if page.program-areas contains 'girls-and-stem-education' %}  
+### [{{ page.title }}]({{page.url}})
+{{ page.summary }}
+{% endif %}
+{% endfor %}
+
+# Volunteer Stories
 
 - [How I Used My Computer-Science Degree in the Peace Corps While Serving in Rural Africa - NationalJournal.com](http://www.nationaljournal.com/next-america/perspectives/how-i-used-my-computer-science-degree-in-the-peace-corps-while-serving-in-rural-africa-20140425) -- Lyla Fujiwara, RPCV Rwanda, discusses her role in supporting young entrepreneurs and creating the tech-focused computer skills camp for women, Camp TechKobwa.
 
@@ -128,126 +137,21 @@ There are some incredible organizations that are tackling this issue -- big and 
 - [Wining & Whining - Adventures in Moldova: Let Girls Learn - Girls In ICT](http://winingwhining.blogspot.com/2015/05/let-girls-learn-girls-in-ict.html)
 
 
-
-# Highlighted Peace Corps Volunteer projects
-
-
-
-### [GirlTech Girls Camp in Uganda](http://uganda.peacecorps.gov/content/camps/girltech-gallery)
-
-GirlTech Uganda is a professional development program, with the mission of empowering secondary school girl students from all over Uganda to pursue advanced education and careers in science and technology.
-
-- [GirlTech Gallery - Peace Corps - Uganda](http://uganda.peacecorps.gov/content/camps/girltech-gallery) -- Peace Corps Uganada official page with lots of pictures of the camp this past year.
-
-- [GirlTech Uganda](https://www.facebook.com/GirlTechUganda/) -- Facebook group to the camp with ongoing discussion.
-
-
-
-### [Moldova's Technovation Challenge](http://www.technovationchallenge.org/world-pitch-2014/)
-
-A group of four rural Moldovan students [won the global Technovation challenge ](https://letgirlslearn.peacecorps.gov/increasingtheimpactofvolunteers.html)-- a technology entrepreneurship competition for girls ages 10 to 18 -- with the coaching of Chip Moreland, a PCV living in the Republic of Moldova. They are now working to launch the mobile application and website which informs people about the quality of water at specific wells and how to protect themselves from the contaminants therein. This is also featured on the [Third Pillar on the LGL website](https://letgirlslearn.peacecorps.gov/). 
-
-##### 2015
-
-- [Meet Team Pandicorn + Latest Technovation Challenge Moldova News – SaraJoy](https://sarajoyhoy.wordpress.com/2015/05/19/meet-team-pandicorn-latest-technovation-challenge-moldova-news/) -- Blog post from Volunteer talking about her experience with a team this year.
-
-- [Celebrations & Lessons Learned from Technovation Challenge – SaraJoy](https://sarajoyhoy.wordpress.com/2015/05/12/celebrations-lessons-learned-from-technovation-challenge/) -- Followup from Volunteer.
-
-- [AFishInMoldova - Peace Corps Volunteer in Moldova](https://tfish812.wordpress.com/) -- Another account of a team this year from Moldova.
-
-##### 2014
-
-- [How do you get girls involved in global technology? Just ask. – Peace Corps Passport](http://passport.peacecorps.gov/2014/12/08/how-do-you-get-girls-involved-in-global-technology-just-ask/) -- Account from winning team PCV coordinator from 2014.
-
-
-
-### [Camp Sky in Malawi](http://campskymw2015.blogspot.com/)
-
-Peace Corps Volunteer Devyn Lee described her experience of teaching a classroom of 12th grade students [how to use a computer](http://campskymw2015.blogspot.com/2015/04/a-click-in-computer-literacy-direction.html) for the first time.
-
-> The girls were more hesitant to use the computers, almost as if they were afraid of them, while the boys were excited to get on them.
-
-
-
-### [Camp TechKobwa in Rwanda](http://rwandancampforgirlsinit.blogspot.com/)
-
-A two-week camp primarily focused on technology, but also incorporating elements of life skills, communication and problem-solving (‘TechKobwa’ translates to “technology for girls” in Rwandan).
-
-##### 2015
-
-- [Teaching tech and spreading skills in Rwanda – Peace Corps Passport](http://passport.peacecorps.gov/2015/08/25/teaching-tech-and-spreading-skills-in-rwanda/) -- Volunteer-written post on Camp TechKobwa.
-
-- [TechKobwa: Rwandan Camp for Girls in Information Technology](http://rwandancampforgirlsinit.blogspot.com/) -- Official blog for the camp.
-
-- [Girls acquire ICT skills to solve community problems - The New Times - Rwanda](http://www.newtimes.co.rw/section/article/2014-08-09/92373/) -- Article in Rwandan paper on the camp.
-
-##### 2014
-
-- [TechKobwa Camp For Girls - Inspiring Students And Teachers Since 2013](http://reb-tdm.org/NewsAndEvents.php?newsID=32) -- Overview of the second year of the camp.
-
-- [Owosso woman helps teach technology in Rwanda - The Argus-Press: Local News](http://www.argus-press.com/news/article_6539585e-2828-11e5-8d5f-232e3164f9f1.html) -- Discussion of camp from perspective of the Michigan professional who lent a hand.
-
-- [Camp TechKobwa 2014](http://www.cse.msu.edu/tc4g/) -- Overview of the camp from Michigan State side.
-
-- [TechKobwa](http://www.egr.msu.edu/techkobwa/home) -- Official site of the camp from the Michigan State perspective.
-
-##### 2013
-
-- [Peace Corps Volunteer Ginger Anderson works with... - Life is calling. How far will you go?](http://peacecorps.tumblr.com/post/61033516390/peace-corps-volunteer-ginger-anderson-works-with) -- PCV working with the camp.
-
-- [Bugesera to Host ICT Camp for Rwandan Female Secondary School Students> IGIHE.com English Version](http://en.igihe.com/news/bugesera-to-host-ict-camp-for-rwandan-female.html) -- Account of the first year of the camp.
-
-- [Peace Corps Volunteers Lead Tech Camp for Young Women in Rwanda - IIP Digital](http://iipdigital.usembassy.gov/st/english/article/2013/09/20130913282834.html#ixzz3dKhqWOoX) -- Account of the camp from State.
-
-
-
-### [Let Girls Learn Hackathon in Ghana](https://beta.peacecorps.gov/donate/project/let-girls-learn-hackathon)
-
-Through a 24-hour hackathon, the Let Girls Learn Hackathon gathered teams from different regions of Ghana to brainstorm, collaborate, and develop innovative solutions to barriers to girls’ education. Each team was formed by a diverse group of participants, including female SHS (secondary school) students, Peace Corps Volunteers, university students in STEM fields, and software developers.
-
-##### 2014
-
-- [Ghana adds modern twist to Stomp Out Malaria – Peace Corps Passport](http://passport.peacecorps.gov/2014/09/26/ghana-adds-modern-twist-to-stomp-out-malaria/) -- Write up of the Hackathon from PCV.
-
-- [Tap Tap SWAT! Ghana adds a modern twist to one of Peace Corps oldest initiatives](http://stompoutmalaria.org/tap-tap-swat-ghana-adds-a-modern-twist-to-one-of-peace-corps-oldest-initiatives/) -- Write-up of the game on the STOMP website.
-
-##### 2015
-
-- [Kumasi Hub of Global Shapers Community and Peace Corps Present “Let Girls Learn Hackathon” - CNN iReport](http://ireport.cnn.com/docs/DOC-1260332) -- Blurb about the Hackathon.
-
-- [Kumasi Hub of Global Shapers Community and Peace Corps present Let Girls Learn Hackathon - Global Shapers Community](https://www.globalshapers.org/news/kumasi-hub-global-shapers-community-and-peace-corps-present-let-girls-learn-hackathon-6) -- Another blurb about the Hackathon.
-
-- [Jimmy Meet World](http://www.jimmymeetworld.net/page/2/) -- Volunteer blog who facilitated the LGL Hackathon.
-
-
-
-
-### Others
-
-- [Raspberry Pi Computer Lab in Botswana](http://thefergusonpage.com/Pi_lab.html) -- The Maun Branch of Botswana Family Welfare Association (BOFWA) created a Health and Education Resource Center on its property at Riverside Ward in Maun. The center features Raspberry Pis (low-cost computers) -- facilitated by Volunteer Anna Shaw. The goal of this lab is to give the youth operational experience with a computer system they can afford.
-
-- [Peace Corps Tanzania Science Conference (video)](https://www.youtube.com/watch?v=X_5Ym-Udb1g) -- Camp begun by Volunteers with an eye towards STEM.
-
-- [Smart Sistas ICT Camp](http://www.smartsistas.vu/) and [SMART Sistas](https://www.facebook.com/smartsistas) -- Upcoming ICT camp for girls in Vanuatu.
-
-- [Welcome to Peace Corps Guyana (video)](https://www.youtube.com/watch?v=ohmDmgr7Y3g) -- Great little video showing digital literacy in Guyana.
-
-
-### VRT Snippets from 2015
-
-
-##### Dominican Republic
+### Volunteer report from Dominican Republic
 
 > Using a borrowed LEGO Mindstorm kit, I have begun to train 5 young adults/adolescents on the use of robotics and the influence engineering and mathematics has on robotic programming. The intent of this initiative is to educate these 5 young adults on robotics and STEM based fields in order for each one of them to form their own groups of community teenagers and encourage them to pursue and enhance their mathematical ability through engaging activities with the LEGO Mindstorm kit.
 
 
-##### Zambia
+### Volunteer report from Zambia
 
 > I taught about electricity at a local school using items that I had purchased in Chadiza to demonstrate electricity and how it works. Items included a speaker, a solar panel, batteries, a small motor, a radio, an electrical switch, and electrical wire. This was part of a bigger effort on my part to be more visible in the local schools and to encourage students to be engaged in Science, Technology, Engineering, and Mathematics (STEM) activities.
 
 
-##### Morocco
+### Volunteer report from Morocco
 
 > 'The Girls' Adventures in Math, Engineering and Science (GAMES) was an 8 day, overnight camp in Goulmima. The camp will provide girls with the opportunity to look at environmental and sustainability issues through Science, Technology, Engineering and Mathematic (STEM) lenses and leadership development activities. Sixty-five girls, ages 14 - 18, from around Morocco participated in hands-on activities and service learning projects in order to understand the interactions between humans and other living organisms outside of a classroom atmosphere and strengthen their civic engagement and management skills. Female participants were able to identify their personal skillsets, passions and how they can apply to STEM fields.
 
 > The topics that were covered included; sustainability and how environment, culture, society and economy are linked; environmental pollutants and cycles they follow through the air, water, and soil; climate change; renewable energy sources and energy efficiency; water sources and clean water technologies and air quality management. Additionally, the camp was made possible with the collaboration of the Ministry of Education and Ministry of Youth and Sports, as well as several local associations.
+
+
+

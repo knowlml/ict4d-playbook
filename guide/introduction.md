@@ -2,72 +2,39 @@
 title: Introduction
 ---
 
-Peace Corps Volunteers use information and communication technologies (ICTs) in every part of their service to have the greatest impact that they can possibly have.
+> In the 21st century, I am convinced that Peace Corps is even better prepared and better positioned than virtually any other agency or institution to bring information technology to the task of poverty reduction.
 
-> They **empower** communities by teaching basic computer skills and digital competencies;  
-> they **amplify** the voice and reach of educational messaging and service; and  
-> they **support** efforts that take create, access, and provide value from digital services.
+<p style="text-align: right;">— Former Peace Corps Director Mark Schneider</p>
 
-By leveraging ICTs for social and economic development (or ICT4D), Volunteers are directly helping schools, communities, and organizations in ways that were simply not available even ten years ago.
+Today’s Peace Corps Volunteers are helping people in developing countries take part in the digital and technological revolution that many in the western world take for granted. They are bridging the digital divide by teaching students and teachers to effectively use computers and the Internet for education, helping local entrepreneurs to create web sites to market their goods around the world, helping extend the reach of healthcare services, and training counterparts to use data for decision-making.
 
-### By the numbers*
+Peace Corps Volunteers have long been on the cutting edge of finding ways for their communities and counterparts to leverage technology for as long as Peace Corps has been around—through the decades that span everything from ham radio and television to telecenters to computers labs now to mobile phones and open data.
 
-- 1-in-3 Volunteers report using ICTs as a significant part of their work activities (i.e. not just for contacting friends and family)
+Volunteers recognize that using information and communication technologies (ICTs) are an essential ingredient to making the most of their service.
 
-- 66 countries (all of them) where Peace Corps Volunteers serve currently have ongoing ICT4D-related projects.
+This playbook explains the concepts of using ICTs for Development -- known as ICT4D -- for immediate use by Peace Corps Volunteers serving their communities. It covers the reasons *why* this is a critical area to understand, the principles underlying *how* to go about using ICTs in a way that is consistent with Peace Corps' mission, valus, and best practices, and also provides links to other communities, organizations, and resources.
 
-- 11,500 ICT4D-related Activities reported on by Volunteers in FY2014.
+## Audience
 
-- 9% of Volunteers report that their ‘ICT for Development’ is part of their work in Peace Corps.
+The Playbook has a wide and diverse audience:
 
-- 1,000 RPCVs have served as IT Volunteers (from 2000 until 2008).
+- For currently-serving Peace Corps Volunteers from all sectors, regions, and countries.
+- For Peace Corps Staff both at overseas posts and at PC/Washington.
+- For Returned Peace Corps Volunteers (RPCV) who wish to contribute and continue to learn from the Playbook.
+- For the host-country community.
+- For ICT4D practioners.
+- For everyone who wants to make a difference in the world.
 
-- 21 Small Project Assistance (SPA) and Peace Corps Partnership Program grants awarded in FY 2014 categorized as ICT-related.
+## Credits
 
-- 8 Peace Corps Response position with an ICT4D-related focus filled in FY 2014.
-
-- 460 Subscribers to the ICT4D Newsletter written out of Peace Corps/Washington.
-
-- 530 Members of the Peace Corps ICT4D Facebook Group.
-
-\* *It should be noted that our system of reporting massively under-reports these types of intersectional data. Numbers from AVS and VRT FY2015.*
-
-The indicators of Volunteer ICT use and engagement will only increase as connectivity becomes cheaper and more accessible, as digital tools become more user-friendly, and as the opportunities afforded by ICTs plays a more significant part in improving the lives of their commnities.
-
-Peace Corps has been (and will continue to be) about people—about promoting world peace and friendship through shared experiences and grassroots development.
-
-Information, data, technology, and digital tools allow our dedicated Volunteer corps to share more, connect further, and to have a richer and more sustained impact for themselves and their communities.
-
-### The technology moment for Peace Corps
-
-From the perspective of the Volunteer, the biggest change in the Peace Corps landscape from 1961 to today is that of technology and communications.
-
-Volunteers can now communicate electronically not just with their counterparts, communities, and Peace Corps staff within the country, but also with friends, family, and experts across the globe—at any hour, night or day.
-
-*95% of the world is now covered by at least 2G mobile-cellular network.*
-
-The world is now more interconnected, informed, and able to access, find, and create information than at any time in human history.
-
-This global connectivity illustrates that opportunities for Peace Corps Volunteers to more effectively carry out the mission of world peace, cross-cultural understanding, and grassroots development are both evident and vital.
-
-Communities where Volunteers serve are no longer the isolated, connectivity oasis’ they once were. They have access to information and digital services never before within their reach and they have new opportunities to influence the world around them.
-
-##### But progress and opportunity is distributed unevenly.
-
-But empowerment and progress are not a certainty. Access to technologies, to information, and to services can also serve to exacerbate and amplify inequality, limit opportunities to the rich and well-connected, and leapfrog marginalized communities.
-
-The reality is that our economic, social and political life in the 21st century will be increasingly digital, and **those without information and communication technologies (ICTs) will be increasingly marginalized, excluded, and exploited.**
-
-##### From IT to ICT4D
-
-The field of ICT for Development (or ICT4D) arises from a concerted effort to temper the market forces that have led this astounding technological revolution explicitly for those who have the most to gain from them. That is, ICT4D focuses on connecting the technology to people—to ICTs being able to have a positive impact on people's lives and livelihoods.
-
-ICT4D has been a sub-field of international development since the 1990s, and has matured in parallel with the field of international development, focusing on community co-ownership and co-development, design-thinking and iteration, and on the end-user and how they can be empowered by rather than exploited by developments in technology and communication.
-
-### Bootstrapping Peace Corps with ICT4D
-
-Peace Corps Volunteers have long been at the forefront of innovation—whether it’s teaching their neighbors how to use solar power to cook the night’s meal, or demonstrating an interactive and dynamic learning style that is completely foreign to students accustomed to rote memorization and the standard “chalk and talk” of many traditional classrooms.
-
-What we see in the ICT4D landscape of the Peace Corps is that while the tools may change over time, what remains constant is the central drive of all Peace Corps Volunteers—to start where they are, with what they have, to do what they can to make a better, more inclusive, more connected world.
+I'd like to thank everyone that helped make this Playbook a reality. This wasn't the effort of a single person!
 
 
+### Primary Author
+
+- [Gabriel Krieshok](www.gabrielkrieshok.com)
+
+### Contributing Authors
+
+<!-- - [Matthew McCallister]() : )
+- [Stephanie Santoso]() -->

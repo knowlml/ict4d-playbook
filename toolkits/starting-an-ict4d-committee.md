@@ -1,5 +1,5 @@
 ---
-title: Starting an ICT4D Committee
+title: Starting an ICT4D Committee Reader
 ---
 
 

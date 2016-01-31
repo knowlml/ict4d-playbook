@@ -2,12 +2,23 @@
 title: The ICT4D Guide
 ---
 
-This handbook discusses the legal, social and technical aspects of ICT4D at Peace Corps.
+**This playbook provides Peace Corps Volunteers and staff with principles, projects, and tools for using data and technology most effectively in their service**. It discusses the what, why, where and how for using ICTs.
 
-It can be used by anyone but is especially designed for those seeking to open up data. It discusses the why, what and how of open data – why to go open, what open is, and the how to ‘open’ data.
+To get started, check out the [Introduction](/guide/introduction/). You can navigate through the guide using the Table of Contents (either from the sidebar or below). I welcome comments on this playbook which is meant to be a living, always-changing and adapting document.
 
-To get started, you may wish to look at the Introduction. You can navigate through the report using the Table of Contents (see sidebar or below).
+## Table of Contents
 
-We warmly welcome comments on the text and will incorporate feedback as we go forward. We also welcome contributions or suggestions for additional sections and areas to examine.
-
-Table of Contents
+- [Introduction](/guide/introduction/)
+- [Why ICT4D?](/guide/why-ict4d/)
+- [What is ICT4D?](/guide/what-is-ict4d/)
+- [Strategy](/guide/strategy)
+- [Program Areas overview](/guide/program-areas-overview)
+- [Principles](/guide/principles)
+- [Initiatives](/guide/initiatives)
+- [Organizations](/guide/organizations)
+- [Links](/guide/links)
+- [ICT4D for volunteers](/guide/ict4d-for-volunteers)
+- [ICT4D for staff](/guide/ict4d-for-staff)
+- [FAQ](/guide/faq)
+- [History](/guide/history)
+- [Glossary](/guide/glossary)

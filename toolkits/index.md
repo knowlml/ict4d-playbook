@@ -1,11 +1,17 @@
 ---
-title: Toolkit Test
-layout: toolkit
+title: Toolkits
+type: index
 ---
+
+## Table of Contents
+
 
 
 <ul>
-{% for toolkit in site.toolkits %}
-  <li><a href="{{ baseurl }}{{ toolkit.url }}/">{{ toolkit.title }}</a></li>
-  {% endfor %}
+{% for page in site.pages | sort %}
+{% if page.type contains 'toolkit' %}
+<li><a href="{{ page.url }}">{{page.title}}</a></li>
+{% endif %}
+{% endfor %}
 </ul>
+
