@@ -49,7 +49,7 @@
         <li {% if page.url == chapter_url %}class="Selected"{% endif %}>
           <a href="{{ chapter_url }}">{{ chapter.title }}</a>
         </li>
-        {% endfor %}
+        {% endfor %}<br /><br />&nbsp;
     </ul>
 
     <li {% if page.url contains 'program-areas/' %}class="Selected"{% endif %}>
@@ -63,7 +63,7 @@
         <li {% if page.url == chapter_url %}class="Selected"{% endif %}>
           <a href="{{ chapter_url }}">{{ chapter.title }}</a>
         </li>
-        {% endfor %}
+        {% endfor %}<br /><br />&nbsp;
     </ul>
 
     <li {% if page.url contains 'toolkits' %}class="Selected"{% endif %}>

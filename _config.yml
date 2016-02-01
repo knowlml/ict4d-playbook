@@ -2,7 +2,7 @@
 title: The Peace Corps ICT4D Playbook
 short_title: ICT4D Playbook
 description: |
-    Resources for Peace Corps Volunteers leveraging information, communication, and technology for development
+    Volunteers using information and communication technologies for development.
 baseurl: http://playbook.peacecorpsict4d.org
 github_username:  peacecorps
 github_repo:  ict4d-playbook
@@ -90,18 +90,6 @@ meta:
           slug: 'youth-workforce-employment'
         - title: 'Appropriate Technology'
           slug: 'appropriate-technology'
-  toolkits:
-    output: true
-    toc:
-      chapters:
-        - title: 'ICT4D Course'
-          slug: 'ict4d-course'
-        - title: 'Software and Apps for Volunteers'
-          slug: 'software-and-apps-for-volunteers'
-        - title: 'Starting An ICT4D Committee'
-          slug: 'starting-an-ict4d-committee'
-        - title: 'Web Tools And Services'
-          slug: 'web-tools-and-services'
   volunteer-projects:
     output: true
     toc:
@@ -125,13 +113,6 @@ meta:
     output: true
 
 defaults:
-  -
-    scope:
-      path: ""
-    values:
-      layout: post
-      section:
-      authors:
   -
     scope:
       path: "guide"

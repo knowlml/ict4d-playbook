@@ -1380,11 +1380,12 @@ html.mm-background .mm-page,
         left:50%;
         bottom:0;
         margin-left:-658px;
-        @include retina-image('../img/home-banner', auto 215px, jpg);
+        @include retina-image('../img/home-banner', auto 215px, png);
+        opacity:0.8;
         background-repeat:no-repeat;
         background-position:center bottom;
         height:215px;
-        z-index:-1;
+        z-index:1;
       }
     }
     
