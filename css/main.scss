@@ -1862,3 +1862,18 @@ html.mm-background .mm-page,
     }
   }
 }
+
+section2 {
+  @include outer-container;
+  aside2 { @include span-columns(3); }
+  article2 { @include span-columns(9); }
+}
+
+
+
+
+
+
+
+
+

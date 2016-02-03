@@ -23,6 +23,8 @@
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
     <script src="{{ "/js/plugins.js" | prepend: site.baseurl }}"></script>
     <script src="{{ "/js/main.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/jquery.dynatable.js" | prepend: site.baseurl }}"></script>
+
     {% if page.js %}
     {% for file in page.js %}
     <script src="{{ site.baseurl }}/js/{{ file }}.js"></script>
@@ -62,8 +64,56 @@
         r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
         ga('create','{{ site.googleanalytics }}','auto');ga('send','pageview');
     </script>
+
+
     {% endif %}
-    
+    <script>
+    $(document).ready( function() {
+        $('#local').dynatable({
+          features: {
+            paginate: false,
+            recordCount: false
+          },
+          dataset: {
+            records: [
+                  {
+                    "Post": "Albania",
+                    "Region": "EMA"
+                  },{
+                    "band": "Supertramp",
+                    "album": "Breakfast In America"
+                  },{
+                    "band": "Peter Tosh",
+                    "album": "Mama Africa"
+                  },{
+                    "band": "The Police",
+                    "album": "Regatta d'Blanc"
+                  },{
+                    "band": "The Police",
+                    "album": "Zenyatta Mondatta"
+                  },{
+                    "band": "Supertramp",
+                    "album": "Crime of the Century"
+                  },{
+                    "band": "Talking Heads",
+                    "album": "Remain in Light"
+                  },{
+                    "band": "Talking Heads",
+                    "album": "Speaking in Tongues"
+                  }
+            ]
+          },
+          params: {
+            records: '_root'
+          }
+        });
+    });
+    </script>
+ 
+
+
+
+
   </body>
 
 </html>

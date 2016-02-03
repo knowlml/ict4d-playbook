@@ -108,11 +108,16 @@ meta:
           slug: 'camp-techkobwa'
         - title: 'Other Projects'
           slug: 'other-projects'
-
   community:
     output: true
 
 defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: post
+      section: program-areas
   -
     scope:
       path: "guide"
@@ -124,7 +129,6 @@ defaults:
       path: "program-areas"
     values:
       layout: post
-      section: program-areas
   -
     scope:
       path: "toolkits"
