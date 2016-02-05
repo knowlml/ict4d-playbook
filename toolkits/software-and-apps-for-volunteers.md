@@ -9,7 +9,7 @@ authors:
 
 <p class="lead">This toolkit is a list of software and links to download them which includes desktop software (PC, Mac, Linux) and smartphones (iOS and Android). Everything on this list is free (or freemium). </p>
 
-You can find a USB image of all of these software packages paired with valuable content at the <a href="#">Peace Corps On-A-Stick project</a>.
+You can find a USB image of all of these software packages paired with valuable content at the <a href="http://peacecorps.github.io/peace-corps-on-a-stick/">Peace Corps On-A-Stick project</a>.
 
 ___
 
@@ -215,7 +215,7 @@ Computer viruses are a problem throughout the world -- and are compounded in man
 
 - [Stellarium Portable](http://portableapps.com/apps/education/stellarium_portable) -- Constellation drawing, star names, planet viewing, nebulae watching, and more. Plus, it leaves no personal information behind on the machine you run it on, so you can take your favorite astronomy program with you wherever you go. [Full, installable version](http://www.stellarium.org/).
 
-- [Childsplay](http://childsplay.sourceforge.net/) -- collection of educational activities for young children and runs on Windows, OSX, and Linux.
+- [Childsplay](http://sourceforge.net/projects/childsplay/files/) -- collection of educational activities for young children and runs on Windows, OSX, and Linux.
 
 - [OpenEmu](http://openemu.org/) -- Multiple video game system emulator (must also have game ROMs).
 
@@ -227,7 +227,7 @@ Computer viruses are a problem throughout the world -- and are compounded in man
 
 - [SiteSucker for OS X](http://ricks-apps.com/osx/sitesucker/index.html) -- Automatically downloads websites from the Internet. It does this by asynchronously copying the site's webpages, images, PDFs, style sheets, and other files to your local hard drive, duplicating the site's directory structure. Also available for [iOS](http://ricks-apps.com/ios/sitesucker/index.html).
 
-- [Opera](****) -- A lightweight, customizable browser designed for speed. Activate 'Opera Turbo' to compress pages (and images) by going through Opera servers ([read this](http://www.opera.com/privacy/#operaturbo) if you have privacy concerns)[Portable Windows version](http://portableapps.com/apps/internet/opera_portable).
+- [Opera](http://www.opera.com/) -- A lightweight, customizable browser designed for speed. Activate 'Opera Turbo' to compress pages (and images) by going through Opera servers ([read this](http://www.opera.com/privacy/#operaturbo) if you have privacy concerns)[Portable Windows version](http://portableapps.com/apps/internet/opera_portable).
 
 - [FileZilla](https://filezilla-project.org/) -- Free FTP solution.  [Portable Windows version](http://portableapps.com/apps/internet/filezilla_portable).
 
@@ -239,7 +239,6 @@ Computer viruses are a problem throughout the world -- and are compounded in man
 
 - [Puppy Linux](http://puppylinux.org) -- Lightweight Linux distribution that focuses on ease of use and minimal memory footprint. The entire system can be run from RAM with current versions generally taking up about 210 MB.
 
-- [DamnSmallLinux](http://www.damnsmalllinux.org/) --  Free and open source software under the terms of GNU GPL and other free and open source licenses.
 
 
 
@@ -316,7 +315,7 @@ ___
 
 - [Maps.me](http://maps.me/en/home) – Maps for places all over the world can be downloaded for offline use. For [iOS](http://maps.me/iphone-app-pro) and [Android](https://play.google.com/store/apps/details?id=com.mapswithme.maps.pro).
 
-- [Google Maps](http://www.maps.google.com) -- For [iOS](https://itunes.apple.com/us/app/google-maps/id585027354?mt=8) and [Android](https://play.google.com/store/apps/details?id=com.google.android.apps.maps&hl=en). Also has [enhanced offline functionality](https://support.google.com/gmm/answer/6291838?hl=en).
+- [Google Maps](http://maps.google.com) -- For [iOS](https://itunes.apple.com/us/app/google-maps/id585027354?mt=8) and [Android](https://play.google.com/store/apps/details?id=com.google.android.apps.maps&hl=en). Also has [enhanced offline functionality](https://support.google.com/gmm/answer/6291838?hl=en).
 
 
 
@@ -329,8 +328,6 @@ ___
 
 
 ## Miscellaneous
-
-- [Lonely Planet Postcards](www.google.com) -- Send a postcard to someone back home with one of your own photos and message for $2 per postcard.
 
 - [JFK Challenge](http://jfkchallenge.org/) -- Brings American history to life by turning kids (ages 9-11) into NASA and Peace Corps trainees ready to accept President Kennedy's charge to accomplish great things and make a difference in the world!. Really cute little app that had nothing to do with Peace Corps Washington. : ) [iPad only](https://itunes.apple.com/us/app/the-jfk-challenge/id957358011?ls=1&mt=8).
 
@@ -361,10 +358,12 @@ ___
 
 
 
-There have been some really great offline content packages created to suit different needs in the developing world. The folks at [WorldPossible](http://worldpossible.org/) have collected some of the best material into [their packages](http://dev.worldpossible.org/cgi/rachelmods.pl) as [USB drives](http://www.rachel.worldpossible.org/) and [Raspberry Pi webserver images](http://rachelfriends.org/previews/rachelpi_64EN/) which you should definitely check out. Other notable collections include the [World Computer Exchange - Computers for Girls listing](http://vickiniu.github.io/c4g-content/), and the [SolarSpell project](http://solarspell.org/).
+There have been some really great offline content packages created to suit different needs in the developing world. The folks at [WorldPossible](http://worldpossible.org/) have collected some of the best material into [their packages](http://dev.worldpossible.org/cgi/rachelmods.pl) as [USB drives](http://www.rachel.worldpossible.org/) and [Raspberry Pi](http://racheloffline.org/) which you should definitely check out.
 
-<div class="note"><h6>Peace Corps On-A-Stick</h6>
-For Peace Corps' own offline content (which includes many of the below packages <bold>plus</bold> exclusive Peace Corps content such as language manuals, recipe books, and historical collections), check out the <a href="#">Peace Corps On-A-Stick project</a> which is available for download as a USB image.
+Other notable collections include the [World Computer Exchange - Computers for Girls listing](http://vickiniu.github.io/c4g-content/), and the [SolarSpell project](http://solarspell.org/).
+
+<div class="note"><h6>Peace Corps on-a-Stick</h6>
+For Peace Corps' own offline content (which includes many of the below packages <bold>plus</bold> exclusive Peace Corps content such as language manuals, recipe books, and historical collections), check out the <a href="peacecorps.github.io/peace-corps-on-a-stick/">Peace Corps on-a-Stick project</a> which is available for download as a USB image.
 </div>
 
 - [Kiwix Portable Packages](http://download.kiwix.org/portable/) -- Requires the [Kiwix Reader](http://www.kiwix.org/) software or app -- contains a Gutenberg package, TED talks, Wikibooks, Wikinews, Wikipedia, Wikiquote, Wikisource, Wikispecies, Wikiversity, Wikivoyage, and Wiktionary.
@@ -373,11 +372,11 @@ For Peace Corps' own offline content (which includes many of the below packages 
 
 - [XOWA](http://gnosygnu.github.io/xowa/) -- Free, open-source application that lets you download Wikipedia to your computer.
 
-- [Wikipedia for Schools Package](http://dev.worldpossible.org/cgi/viewmod.pl?module_id=19) -- Selection of articles focused on school children around the world (6000 articles, 26 million words and 50,000 images) from [SOS Children's Villages](www.sos-schools.org/wikipedia-for-schools).
+- [Wikipedia for Schools Package](http://dev.worldpossible.org/cgi/viewmod.pl?module_id=19) -- Selection of articles focused on school children around the world (6000 articles, 26 million words and 50,000 images) from [SOS Children's Villages](http://sos-schools.org/wikipedia-for-schools).
 
 - [Practical Action Offline Resources](http://dev.worldpossible.org/cgi/viewmod.pl?module_id=14) -- From [Practical Action's Resource Library](http://answers.practicalaction.org/our-resources), over 2,000 online resources available from the team at [Practical Action](http://practicalaction.org/), including technical briefs and drawings, and audios and videos, on a range of topics and sub-topics, and in different languages. The resources are all focused on small-scale appropriate technologies aimed at improving access to infrastructure and enterprise development for people living in poverty. 
 
-- [GCF LearnFree.org Package](http://dev.worldpossible.org/cgi/viewmod.pl?module_id=37) -- From [GCF LearnFree.org](gcflearnfree.org), illustrated articles and videos focusing on technology, job training, reading, and math skills.
+- [GCF LearnFree.org Package](http://dev.worldpossible.org/cgi/viewmod.pl?module_id=37) -- From [GCF LearnFree.org](http://gcflearnfree.org), illustrated articles and videos focusing on technology, job training, reading, and math skills.
 
 - [Infonet-Biovision](http://dev.worldpossible.org/cgi/viewmod.pl?module_id=4) -- From [Infonet-Biovision](http://www.infonet-biovision.org/), organized and illustrated information on a wide range of agricultural, environmental, and health topics. "The resource gives farmers, trainers, students, and extension workers quick access to up-to-date and locally relevant agricultural information and related topics.""
 

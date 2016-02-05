@@ -7,17 +7,12 @@ baseurl: http://playbook.peacecorpsict4d.org
 github_username:  peacecorps
 github_repo:  ict4d-playbook
 
-# devs:
-#   -
-#       name: Gabriel Kriueshok
-#       github: gabrielkrieshok
-
 # contributors:
 #   -
 #       name: 
 #       link: 
 
-#googleanalytics: UA-XXXXX-X
+googleanalytics: UA-73371163-1
 
 markdown: kramdown
 
@@ -26,10 +21,11 @@ kramdown:
 
 permalink: pretty
 
+gems:
+  - jemoji
 
 meta:
   guide:
-    output: true
     toc:
       chapters:
         - title: 'Introduction'
@@ -44,8 +40,6 @@ meta:
           slug: 'strategy'
         - title: 'Principles'
           slug: 'principles'
-        - title: "Program Areas Overview"
-          slug: 'program-areas-overview'
         - title: 'Initiatives'
           slug: 'initiatives'
         - title: 'ICT4D for Volunteers'
@@ -59,7 +53,6 @@ meta:
         - title: 'Glossary'
           slug: 'glossary'
   program-areas:
-    output: true
     toc:
       chapters:
         - title: 'Digital Literacy'
@@ -88,28 +81,19 @@ meta:
           slug: 'media-production'
         - title: 'Youth Workforce Employment'
           slug: 'youth-workforce-employment'
-        - title: 'Appropriate Technology'
-          slug: 'appropriate-technology'
-  volunteer-projects:
-    output: true
+        - title: 'Tools and Technologies'
+          slug: 'tools-and-technologies'
+  contribute:
     toc:
       chapters:
-        - title: 'Bantu Babel - Zambia'
-          slug: 'bantu-babel'
-        - title: 'Let Girls Learn Hackathon - Ghana'
-          slug: 'let-girls-learn-hackathon-ghana'
-        - title: 'GirlTech - Uganda'
-          slug: 'girltech'
-        - title: 'Technovation Challenge - Moldova'
-          slug: 'technovation-challenge'
-        - title: 'Camp Sky - Malawi'
-          slug: 'camp-sky'
-        - title: 'Camp TechKobwa - Rwanda'
-          slug: 'camp-techkobwa'
-        - title: 'Other Projects'
-          slug: 'other-projects'
-  community:
-    output: true
+        - title: 'Contribute'
+          slug: ''
+        - title: 'Edit a page'
+          slug: 'editing'
+        - title: 'Adding a page'
+          slug: 'adding'
+        - title: 'Markdown examples'
+          slug: 'markdown-examples'
 
 defaults:
   -
@@ -117,45 +101,6 @@ defaults:
       path: ""
     values:
       layout: post
-      section: program-areas
-  -
-    scope:
-      path: "guide"
-    values:
-      layout: post
-      section: guide
-  -
-    scope:
-      path: "program-areas"
-    values:
-      layout: post
-  -
-    scope:
-      path: "toolkits"
-    values:
-      layout: post
-      section: toolkit
-      type: toolkit
-  -
-    scope:
-      path: "volunteer-projects"
-    values:
-      layout: volunteer-project
-      section: volunteer-projects
-  -
-    scope:
-      path: "community"
-    values:
-      layout: post
-      section: community
-
-# related_projects:
-
-# collections:
-#   toolkits:
-#     output: true
-#     permalink: /toolkits/:title/
-
-#   -
-#       name: 
-#       link: 
+collections:
+  volunteer-projects:
+    output: true

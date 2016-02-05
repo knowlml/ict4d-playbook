@@ -1,19 +1,6 @@
 ---
-section: contribute
-layout: docs
+
 title: Editing a page
-authors:
- - Sam Smith
-pagination:
-  start:
-    name: Contribute
-    link: /contribute/
-  previous:
-    name: Contribute
-    link: /contribute/
-  next:
-    name: Adding a page
-    link: /contribute/adding/
 ---
 
 <p class="lead">If you haven’t done so already, the first thing you need to do is head over to <a href="https://github.com/" rel="external">Github</a> and create your free account.</p>
@@ -28,12 +15,12 @@ pagination:
 
 <div class="note">
   <h6>Note</h6>
-  <p>When the editable page opens it will (most likely) contain a message saying <em>“You're editing a file in a project you don't have write access to”</em>. If this is your first edit to The Open Data Handbook it will say <em>“We've created a fork of this project for you to commit your proposed changes to”</em>. This is normal and part of the workflow.</p>
+  <p>When the editable page opens it will (most likely) contain a message saying <em>“You're editing a file in a project you don't have write access to”</em>. If this is your first edit to Playbook it will say <em>“We've created a fork of this project for you to commit your proposed changes to”</em>. This is normal and part of the workflow.</p>
 </div>
 
 <h4>Method B: Browse the Github repository</h4>
 
-<p>The entire file structure of this site can be browsed on Github. For example, the root of the site is <a href="https://github.com/{{ site.github_username }}/{{ site.github_repo }}" rel="external">here</a>, and the English language handbook section is <a href="https://github.com/{{ site.github_username }}/{{ site.github_repo }}/tree/gh-pages/en" rel="external">here</a>. It’s helpful to understand that the page URLs correspond to the file structure you see here. So, if you wanted to edit the Handbook introduction page, given that it’s URL is <code>{{ site.url }}/<strong>en</strong>/<strong>introduction</strong>/</code> we know this file can be found in the <code><strong>en</strong></code> directory with the filename <code><strong>introduction</strong>.md</code> <em>Note: the extension (.md) is stripped from the URL.</em> Following these links you should see a preview of the page you wish to edit. From here click the edit icon <code class="icon-pencil"><span>[pencil icon]</span></code> to start editing.</p>
+<p>The entire file structure of this site can be browsed on Github. For example, the root of the site is <a href="https://github.com/{{ site.github_username }}/{{ site.github_repo }}" rel="external">here</a>, and the English language handbook section is <a href="https://github.com/{{ site.github_username }}/{{ site.github_repo }}/tree/gh-pages/" rel="external">here</a>. It’s helpful to understand that the page URLs correspond to the file structure you see here. So, if you wanted to edit the Handbook introduction page, given that it’s URL is <code>{{ site.url }}/<strong>en</strong>/<strong>introduction</strong>/</code> we know this file can be found in the <code><strong>en</strong></code> directory with the filename <code><strong>introduction</strong>.md</code> <em>Note: the extension (.md) is stripped from the URL.</em> Following these links you should see a preview of the page you wish to edit. From here click the edit icon <code class="icon-pencil"><span>[pencil icon]</span></code> to start editing.</p>
 
 <div class="note">
   <h6>Pro Tip!</h6>
@@ -57,45 +44,45 @@ title: Introduction
 <p>The other important thing to recognise is the Markdown syntax. For example, where you see a line commencing with two hash marks:</p>
 
 <pre>
-<code>##Do you know exactly how much of your tax money is spent on street lights?</code>
+<code>## How to run an Hour of Code lesson</code>
 </pre>
 
 <p>This is the Markdown way of creating a level two heading. On the site it will be outputted like so:</p>
 
-<h2>Do you know exactly how much of your tax money is spent on street lights?</h2>
+<h2>How to run an Hour of Code lesson</h2>
 
 <p>Another common formatting requirement is bullet points, or lists. These are achieved in Markdown by using asterisks, like so:</p>
 
 <pre>
-<code>* civil servants
-* journalists
-* politicians</code>
+<code>* environment
+* education
+* health</code>
 </pre>
 
 <p>giving you:</p>
 
 <ul>
-  <li>civil servants</li>
-  <li>journalists</li>
-  <li>politicians</li>
+  <li>environment</li>
+  <li>education</li>
+  <li>health</li>
 </ul>
 <br>
 <p>Links are created like so:</p>
 
 <pre>
-<code>Give your data a home at the [Datahub](http://datahub.io/).</code>
+<code>Find out more about [Madagascar](http://madagascar.peacecorps.gov/).</code>
 </pre>
 
 <p>result:</p>
 
-<p>Give your data a home at the <a href="http://datahub.io/">Datahub</a>.</p>
+<p>Find out more about <a href="http://madagascar.peacecorps.gov/">Madagascar</a></p>
 
 <div class="note">
   <h6>Pro Tip!</h6>
   <p>To get a link to a specific heading on this site, hover over it then click the section icon <code class="icon-section"><span>[section icon]</span></code>. This will put the URL into your address bar.</p>
 </div>
 
-<p>More Markdown examples can be found <a href="{{ "/contribute/markdown-examples/" | prepend: site.baseurl }}">here</a>, and a more detailed overview <a href="http://daringfireball.net/projects/markdown/syntax" rel="external">here</a>.</p>
+<p>More Markdown examples can be found <a href="{{ "/contribute/markdown-examples/" }}">here</a>, and a more detailed overview <a href="http://daringfireball.net/projects/markdown/syntax" rel="external">here</a>.</p>
 
 <p>If you are unsure of your markup while editing, you can switch to the preview tab <code class="icon-eye"><span>[eye icon]</span> Preview changes</code> to see how it will be rendered.</p>
 
@@ -108,6 +95,6 @@ title: Introduction
 
 <h2>3: Make a pull request</h2>
 
-<p>You will now be presented with a ‘pull request’ form. So far, the changes you have made are to your own copy, or fork of the handbook. A pull request simply sends a request to the authors/maintainers of the live handbook, asking them to include your changes - and put them live! Add any comments you have for the handbook team, then press ‘<em>Create pull request</em>’.</p>
+<p>You will now be presented with a ‘pull request’ form. So far, the changes you have made are to your own copy, or fork of the handbook. A pull request simply sends a request to the authors/maintainers of the live Playbook, asking them to include your changes - and put them live! Add any comments you have for the Playbook team, then press ‘<em>Create pull request</em>’.</p>
 
 <p>Your work here is done :) If you need to make related changes though, any new commits pushed to your branch will automatically be added to the pull request.</p>

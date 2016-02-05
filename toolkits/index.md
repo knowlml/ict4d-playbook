@@ -3,14 +3,14 @@ title: Toolkits
 type: index
 ---
 
-## Table of Contents
 
 
+## All Toolkits
 
 <ul>
-{% for page in site.pages | sort %}
-{% if page.type contains 'toolkit' %}
-<li><a href="{{ page.url }}">{{page.title}}</a></li>
+{% for toolkit in site.pages | sort %}
+{% if toolkit.path contains 'toolkit' %}{% unless toolkit.title == 'Toolkits' %}
+<li><a href="{{ toolkit.url }}">{{toolkit.title}}</a></li>{% endunless %}
 {% endif %}
 {% endfor %}
 </ul>

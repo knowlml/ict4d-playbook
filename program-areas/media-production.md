@@ -1,5 +1,6 @@
 ---
 title: Media Production
+permalink: media-production/
 ---
 
 <p class="lead"></p>
@@ -9,28 +10,24 @@ ___
 
 
 
-## Table of Contents
+## Resources and Toolkits
 
-- [Introduction](#introduction)
-- [Volunteer Projects](#volunteer-projects)
-
+- [Media Production Resources](/media-production/resources/)
 
 
 ___
 
 
 
-# Introduction
+# Overview
 
 
 
 # Volunteer Projects
 
-{% for page in site.pages %}
-{% if page.program-areas contains 'media-production' %}  
-#### [{{ page.title }}]({{page.url}})
-{{ page.summary }}
+{% for project in site.volunteer-projects %}
+{% if project.program-areas contains 'media-productions' %}
+#### [{{ project.title }}]({{project.url}})
+{{ project.summary }}
 {% endif %}
 {% endfor %}
-
-

@@ -2,7 +2,7 @@
 title: Principles
 ---
 
-In earlier versions of this playbook, the ‘plays’ (now principles) were amassed from the [Greentree Consensus](http://digitalprinciples.org/wp-content/uploads/2014/06/Greentree_Principles_2010.pdf), the [UK Design Principles](https://www.gov.uk/design-principles), the [U.S. Digital Services Playbook](https://playbook.cio.gov/), current practices in the field of ICT4D, and Peace Corps practices (PACA, Role of the Volunteer in Development, Core Expectations, etc.)
+In earlier versions of this playbook, the ‘plays’ (now principles) were amassed from the Greentree Consensus, the [UK Design Principles](https://www.gov.uk/design-principles), the [U.S. Digital Services Playbook](https://playbook.cio.gov/), current practices in the field of ICT4D, and Peace Corps practices (PACA, Role of the Volunteer in Development, Core Expectations, etc.)
 
 With the creation of the [Digital Principles](http://digitalprinciples.org/) in 2015, I have opted to adapt their excellent framework and then to provide descriptions more relevant to Peace Corps Volunteers below the principle.
 

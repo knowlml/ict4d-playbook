@@ -26,7 +26,7 @@ Recognizing that particular roles and projects are going to be more easily acces
 
 
 
-## Tailoring adaptive solutions for every envrionment
+## Tailoring adaptive solutions for every environment
 
 Our Volunteers are deployed into incredibly diverse and varied communities, and while we do focus our training and have a streamlined approach to the types of projects that Volunteers engage in, there are simply too many environments, variables, and differences to prescribe global one-size-fits-all solutions.
 

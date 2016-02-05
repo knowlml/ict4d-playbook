@@ -1,8 +1,16 @@
 ---
 title: ICTs for Education
+permalink: icts-for-education/
 ---
 
-<p class="lead">Volunteers leverage ICTs to contribute to universal access to education, equity in education, the delivery of quality learning and teaching, teachers’ professional development and more efficient education management, governance and administration.</p>
+<p class="lead">Volunteers use ICTs to contribute to education universally and to ensure it is accessible, equitable, impactful, and sustainable. They assist in teachers’ professional development, and work with the education community to strive for the most effective education management, governance and administration.</p>
+
+Volunteer activities include:
+
+- Using computers in the classroom in their role as teachers.
+- Teacher training on computer skills, and educational and productivity software suites.
+- Education and empowerment with focus on STEM fields.
+- Camps, clubs, and conferences targeting education with ICT engagement.
 
 
 
@@ -10,10 +18,11 @@ ___
 
 
 
-## Table of Contents
+## Resources and Toolkits
 
-- [Introduction](#introduction)
-- [Volunteer Projects](#volunteer-projects)
+- [ICTs for Education Resources](/icts-for-education/resources/)
+- [Computer Programming Lesson Plans](/toolkits/computer-programming-lesson-plans/)
+
 
 
 
@@ -21,7 +30,7 @@ ___
 
 
 
-# Introduction
+# Overview
 
 Education is the largest sector of work for Peace Corps Volunteers, comprising nearly half of the entire Volunteer Corps.
 
@@ -33,11 +42,10 @@ A focus on education through the lens of ICTs facilitates access to educational 
 
 # Volunteer Projects
 
-{% for page in site.pages %}
-{% if page.program-areas contains 'icts-for-education' %}  
-#### [{{ page.title }}]({{page.url}})
-{{ page.summary }}
+{% for project in site.volunteer-projects %}
+{% if project.program-areas contains 'icts-for-education' %}  
+#### [{{ project.title }}]({{project.url}})
+{{ project.summary }}
 {% endif %}
 {% endfor %}
-
 

@@ -58,7 +58,7 @@ A weaving of the previous three points leads to a landscape of Volunteers, count
 
 The 'why ICT4D' does not apply exclusively to Peace Corps or to the Volunteers. Countless organizations and entrepreneurs are seizing the opportunities presented by leveraging ICTs -- everyone from large multi-lateral donor agencies  to the grassroots community organizers.
 
-For a more in-depth run-down of some of these organizations operating in this space, take a look at the [organizations](/guide/organizations/) and [links](/guide/links/) sections in this playbook alone.
+For a more in-depth run-down of some of these organizations operating in this space, take a look at the [organizations](/toolkit/ict4d-resources/#organizations) and [links](/toolkit/ict4d-resources/#links) sections in this playbook alone.
 
 
 
@@ -68,4 +68,4 @@ For a more in-depth run-down of some of these organizations operating in this sp
 
 [^1]: 'Low and lower-middle-income' as a designation for countries where Peace Corps serves isn't ideal. For a really interesting exploration of terms like these and 'the global south' and 'the third world', check out [this story from NPR's Goat and Soda](http://www.npr.org/sections/goatsandsoda/2015/01/04/372684438/if-you-shouldnt-call-it-the-third-world-what-should-you-call-it) blog.
 
-[^2]: Why is this 'ICT4D' and not simply 'T4D'? The short answer is that the the 'IC' is more inclusive, is the official name, and is what the [academic and practioner field refers to it](https://en.wikipedia.org/wiki/Information_and_communication_technologies_for_development). For the longer version, check out the response in the [Frequently Asked Questions](/guide/faq/#why).
+[^2]: Why is this 'ICT4D' and not simply 'T4D'? The short answer is that the the 'IC' is more inclusive, is the official name, and is what the [academic and practioner field refers to it](https://en.wikipedia.org/wiki/Information_and_communication_technologies_for_development). For the longer version, check out the response in the [Frequently Asked Questions](/guide/faq/).

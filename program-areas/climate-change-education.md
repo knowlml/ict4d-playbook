@@ -1,8 +1,9 @@
 ---
 title: Climate Change Education
+permalink: climate-change-education/
 ---
 
-<p class="lead">Volunteers leverage ICTs as fundamental for monitoring climate change, mitigating and adapting to its effects and assisting in the transition towards green communities.</p>
+<p class="lead">Volunteers use data visualization and ICTs to educate their communities about climate change. They assist in mitigating and adapting to its effects and assisting in the transition towards green communities.</p>
 
 
 
@@ -10,27 +11,25 @@ ___
 
 
 
-## Table of Contents
+## Resources and Toolkits
 
-- [Introduction](#introduction)
-- [Volunteer Projects](#volunteer-projects)
-
+- [Climate Change Education Resources](/climate-change-education/resources/)
 
 
 ___
 
 
 
-# Introduction
+# Overview
 
 
 
 
 # Volunteer Projects
 
-{% for page in site.pages %}
-{% if page.program-areas contains 'climate-change-education' %}  
-#### [{{ page.title }}]({{page.url}})
-{{ page.summary }}
+{% for project in site.volunteer-projects %}
+{% if project.program-areas contains 'climate-change-education' %}
+#### [{{ project.title }}]({{project.url}})
+{{ project.summary }}
 {% endif %}
 {% endfor %}

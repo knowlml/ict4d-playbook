@@ -1,6 +1,4 @@
 ---
-section: contribute
-layout: docs
 title: Markdown Examples
 ---
 
@@ -144,21 +142,21 @@ Paragraph:
 
 
 
-This is [an example](http://datahub.io/) link.
+This is [an example](http://peacecorps.gov/) link.
 
-[This link](/en/introduction/) is internal.
+[This link](/guide/) is internal.
 
 This is [an example] [ok] reference-style link.
 
-[ok]: https://okfn.org/
+[ok]: https://peacecorps.gov/
 
-    This is [an example](http://datahub.io/) link.
+    This is [an example](http://peacecorps.gov) link.
 
-    [This link](/en/introduction/) is internal.
+    [This link](/guide/) is internal.
 
     This is [an example] [ok] reference-style link.
 
-    [ok]: https://okfn.org/
+    [ok]: https://peacecorps.gov/
 
 
 

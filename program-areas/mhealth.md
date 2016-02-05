@@ -1,5 +1,6 @@
 ---
 title: mHealth
+permalink: mhealth/
 ---
 
 <p class="lead">Volunteers use mobile communication devices, such as mobile phones, computers, and digital services to facilitate access to health services and information.</p>
@@ -10,18 +11,15 @@ ___
 
 
 
-## Table of Contents
+## Resources and Toolkits
 
-- [Introduction](#introduction)
-- [Volunteer Projects](#volunteer-projects)
-
-
+- [mHealth Resources](/mhealth/resources/)
 
 ___
 
 
 
-# Introduction
+# Overview
 
 Mobile health initiatives have been shown to strengthen the demand for health services, improve the ability of health workers to deliver those services, and strengthen health system capacity.
 
@@ -31,11 +29,9 @@ Mobile health initiatives have been shown to strengthen the demand for health se
 
 # Volunteer Projects
 
-{% for page in site.pages %}
-{% if page.program-areas contains 'mhealth' %}  
-#### [{{ page.title }}]({{page.url}})
-{{ page.summary }}
+{% for project in site.volunteer-projects %}
+{% if project.program-areas contains 'mhealth' %}
+#### [{{ project.title }}]({{project.url}})
+{{ project.summary }}
 {% endif %}
 {% endfor %}
-
-

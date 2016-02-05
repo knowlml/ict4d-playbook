@@ -32,7 +32,7 @@ I'd like to thank everyone that helped make this Playbook a reality. This wasn't
 
 ### Primary Author
 
-- [Gabriel Krieshok](www.gabrielkrieshok.com)
+- [Gabriel Krieshok](http://gabrielkrieshok.com)
 
 ### Contributing Authors
 

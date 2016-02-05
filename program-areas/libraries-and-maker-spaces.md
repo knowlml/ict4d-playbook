@@ -1,5 +1,6 @@
 ---
 title: Libraries and Maker Spaces
+permalink: libraries-and-maker-spaces/
 ---
 
 <p class="lead">Volunteers help to renovate, build, and support local libraries in their communities. These are spaces foster inclusivity, learning and education, creativity, problem solving, and a place for community engagement.</p>
@@ -10,28 +11,24 @@ ___
 
 
 
-## Table of Contents
+## Resources and Toolkits
 
-- [Introduction](#introduction)
-- [Volunteer Projects](#volunteer-projects)
-
+- [Libraries and Maker Spaces Resources](/libraries-and-maker-spaces/resources)
 
 
 ___
 
 
 
-# Introduction
+# Overview
 
 
 
 # Volunteer Projects
 
-{% for page in site.pages %}
-{% if page.program-areas contains 'libraries-and-maker-spaces' %}  
-#### [{{ page.title }}]({{page.url}})
-{{ page.summary }}
+{% for project in site.volunteer-projects %}
+{% if project.program-areas contains 'libraries-and-maker-spaces' %}
+#### [{{ project.title }}]({{project.url}})
+{{ project.summary }}
 {% endif %}
 {% endfor %}
-
-

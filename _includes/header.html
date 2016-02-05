@@ -5,11 +5,13 @@
 {% assign program-areas = site.meta.program-areas %}
 {% assign volunteer-projects = site.meta.volunteer-projects %}
 {% assign community = site.meta.community %}
+{% assign contribute = site.meta.contribute %}
 {% assign guide_entry_point = site.baseurl | append: '/guide/' %}
 {% assign toolkits_entry_point = site.baseurl | append: '/toolkits/' %}
 {% assign program-areas_entry_point = site.baseurl | append: '/program-areas/' %}
 {% assign volunteer-projects_entry_point = site.baseurl | append: '/volunteer-projects/' %}
 {% assign community_entry_point = site.baseurl | append: '/community/' %}
+{% assign contribute_entry_point = site.baseurl | append: '/contribute/' %}
 
 
 
@@ -38,8 +40,9 @@
       <a href="{{ site.baseurl }}/">Home</a>
     </li>
 
-    <li {% if page.url contains 'guide' %}class="Selected"{% endif %}>
+    <li {% if page.path contains 'guide/' %}class="Selected"{% endif %}>
       <a href="{{ guide_entry_point }}">Guide</a>
+      <li>
 
     <ul>
 
@@ -52,43 +55,33 @@
         {% endfor %}<br /><br />&nbsp;
     </ul>
 
-    <li {% if page.url contains 'program-areas/' %}class="Selected"{% endif %}>
+        <!-- start navigation for program-areas section -->
+    <li {% if page.path contains 'program-areas' %}class="Selected"{% endif %}>
       <a href="{{ program-areas_entry_point }}">Program Areas</a>
 
     <ul>
 
-        <!-- start navigation for program-areas section -->
         {% for chapter in program-areas.toc.chapters %}
-        {% assign chapter_url = site.baseurl | append:  '/program-areas/' | append: chapter.slug | append: '/' %}
+        {% assign chapter_url = site.baseurl | append:  '/' | append: chapter.slug | append: '/' %}
         <li {% if page.url == chapter_url %}class="Selected"{% endif %}>
           <a href="{{ chapter_url }}">{{ chapter.title }}</a>
         </li>
         {% endfor %}<br /><br />&nbsp;
     </ul>
 
-    <li {% if page.url contains 'toolkits' %}class="Selected"{% endif %}>
+
+        <!-- start navigation for toolkits section -->
+    <li {% if page.path contains 'toolkits' %}class="Selected"{% endif %}>
       <a href="{{ toolkits_entry_point }}">Toolkits</a>
 
 
-
+        <!-- start navigation for volunteer-projects section -->
     <li {% if page.url contains 'volunteer-projects' %}class="Selected"{% endif %}>
       <a href="{{ volunteer-projects_entry_point }}">Volunteer Projects</a>
 
-    <ul>
-
-        <!-- start navigation for volunteer-projects section -->
-        {% for chapter in volunteer-projects.toc.chapters %}
-        {% assign chapter_url = site.baseurl | append:  '/volunteer-projects/' | append: chapter.slug | append: '/' %}
-        <li {% if page.url == chapter_url %}class="Selected"{% endif %}>
-          <a href="{{ chapter_url }}">{{ chapter.title }}</a>
-        </li>
-        {% endfor %}
-    </ul>
-
-
 
     <!-- start navigation for apps section -->
-    <li class="apps-menu{% if page.url contains 'solutions' %} Selected{% endif %}">
+<!--     <li class="apps-menu{% if page.url contains 'solutions' %} Selected{% endif %}">
       <a href="{{ apps_entry_point }}">Solutions</a>
       <ul class="app-sub-menu">
         <li class="search">
@@ -162,19 +155,30 @@
           <li><a href="{{ apps_entry_point }}">Solutions Bank</a></li>
        </ul>
       {% endif %}
-    </li>
+    </li> -->
 
 
 
-
-
-
-
-
+        <!-- start navigation for program-areas section -->
     <li {% if page.url contains 'community' %}class="Selected"{% endif %}>
       <a href="{{ community_entry_point }}">Community</a>
+      </li>
+
+        <!-- start navigation for contribute section -->
+    <li {% if page.url contains 'contribute' %}class="Selected"{% endif %}>
+      <a href="{{ contribute_entry_point }}">Contribute</a>
 
 
+    <ul>
 
+        <!-- start navigation for contribute section -->
+        {% for chapter in contribute.toc.chapters %}
+        {% assign chapter_url = site.baseurl | append:  '/contribute/' | append: chapter.slug %}
+        <li {% if page.url == chapter_url %}class="Selected"{% endif %}>
+          <a href="{{ chapter_url }}">{{ chapter.title }}</a>
+        </li>
+        {% endfor %}<br /><br />&nbsp;
+    </ul>
+      </li>
 
 </nav>

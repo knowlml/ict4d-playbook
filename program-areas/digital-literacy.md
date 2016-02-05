@@ -1,14 +1,15 @@
 ---
 title: Digital Literacy
+permalink: digital-literacy/
 ---
 
-<p class="lead">Volunteers work to narrow the economic and social inequality in the access to, use of, and/or impact of ICTs in their communities; and to empower everyone through computers, mobile phones, and digital tools.</p>
+<p class="lead">Volunteers educate their communities on the use of digital tools, mobile phones, and computers; and more broadly they strive to narrow the economic and social inequality in the access to, use of, and/or impact of ICTs.</p>
 
 Volunteer activities include:
 
 - Basic computer skills in classrooms for students, youth, and adults.
-- Intermediate computer and Internet literacy—operating systems, productivity software, web browsers.
-- Advanced digital literacy related to library and computer labs, computer programming, media production, and digital responsibility.
+- Intermediate computer and Internet literacy—operating systems, productivity software, web browsers, digital privacy and protection skills.
+- Advanced digital literacy related to libraries and computer labs, media production, computer programming.
 - Technology-oriented clubs and camps for youth that incorporate ICTs into life-skills, youth development, and other sectoral areas.
 
 
@@ -17,10 +18,10 @@ ___
 
 
 
-## Table of Contents
+## Resources and Toolkits
 
-- [Introduction](#introduction)
-- [Volunteer Projects](#volunteer-projects)
+- [Digital Literacy Resources](/digital-literacy/resources/)
+- [Digital Literacy Lesson Plans](/toolkits/digital-literacy-lesson-plans/)
 
 
 
@@ -28,7 +29,7 @@ ___
 
 
 
-# Introduction
+# Overview
 
 All Volunteers are educators, across all sectors and in all countries.
 
@@ -52,11 +53,10 @@ Our role is to act as catalysts to bridge this divide; to build on the existing 
 
 # Volunteer Projects
 
-{% for page in site.pages %}
-{% if page.program-areas contains 'digital-literacy' %}  
-#### [{{ page.title }}]({{page.url}})
-{{ page.summary }}
+{% for project in site.volunteer-projects %}
+{% if project.program-areas contains 'digital-literacy' %}
+#### [{{ project.title }}]({{project.url}})
+{{ project.summary }}
 {% endif %}
 {% endfor %}
-
 

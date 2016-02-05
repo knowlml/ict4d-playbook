@@ -12,7 +12,7 @@ These are the three channels or activities that Volunteers engage in at a very h
 
 <div class="card">
 <div class="card-image">
-<img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png" alt="">
+<img src="/img/empower.png" alt="Empower">
 </div>
 <div class="card-header">
 1\. Empower individuals in narrowing the digital divide
@@ -23,7 +23,7 @@ These are the three channels or activities that Volunteers engage in at a very h
 
 <div class="card">
 <div class="card-image">
-<img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains-4.png" alt="">
+<img src="/img/amplify.png" alt="Amplify">
 </div>
 <div class="card-header">
 2\. Amplify Volunteer efforts
@@ -34,7 +34,7 @@ These are the three channels or activities that Volunteers engage in at a very h
 
 <div class="card">
 <div class="card-image">
-<img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains-3.png" alt="">
+<img src="/img/support.png" alt="Support">
 </div>
 <div class="card-header">
 3\. Support Volunteers’ use of information and communication technologies (ICTs)
@@ -110,7 +110,7 @@ ___
 12. Facilitate and support ICT4D workshops, trainings, camps, and/or conferences. (*PCV*)
 	- Plan appropriate workshops and trainings.
 
-#### Support Volunteers’ use of ICTs
+## 3. Support Volunteers’ use of ICTs
 
 > Foster communities of information and resource exchange through technological channels and opportunities. Manage communities of practice and interest in T4D areas for Peace Corps Volunteers, staff, counterparts, strategic partners, and the general public through the blended use of digital and traditional tools of communication.
 

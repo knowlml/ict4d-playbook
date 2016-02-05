@@ -2,9 +2,9 @@
 title: Web Tools and Services Reader
 ---
 
-This toolkit is a collection of ICT-related websites and resources that might be of interest to those Volunteer projects looking to leverage technologies in their projects. If you're looking for particular software, I recommend checking out the [Sneaker Drive Software]() Toolkit.
+This toolkit is a collection of ICT-related websites and resources that might be of interest to those Volunteer projects looking to leverage technologies in their projects. If you're looking for particular software, I recommend checking out the [Peace Corps on-a-Stick](peacecorps.github.org/peace-corps-on-a-stick/) project.
 
-If you're looking for support around a particular thematic area ([Education](), [Digital Literacy](), [GIS](), etc.) then you should check out [Toolkits]() overview to see if one of them is more suited to your needs.
+If you're looking for support around a particular thematic area ([Education](/icts-for-education/), [Digital Literacy](/digital-literacy/), [GIS](/gis-and-mapping/), etc.) then you should check out [Toolkits](/toolkits/) overview to see if one of them is more suited to your needs.
 
 
 
@@ -19,7 +19,7 @@ ___
 - [Encryption and Privacy](#encryption-and-privacy)
 - [Networks](#networks)
 - [SMS](#sms)
-- [Libraries and Maker Spaces](#libraries-and-makers-spaces)
+- [Libraries and Maker Spaces](#libraries-and-maker-spaces)
 - [Courses and Learning](#courses-and-learning)
 - [Music](#music)
 
