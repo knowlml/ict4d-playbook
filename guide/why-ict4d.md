@@ -8,9 +8,13 @@ title: Why ICT4D?
 
 Greater access to information and increased communications in a society are associated with positive outcomes for that society.[^1]
 
-Peace Corps' mission is to promote world peace and friendship through the efforts of our Volunteers who dedicate themselves to serve in international communities that request it.
+In the past two decades alone, advances in mobile technology and digital connectivity have completely revolutionized how we interact with the world around us. They also provide unparalleled opportunities to deliver social impact and economic returns to millions of people in developing countries, while engaging new actors in the development process.
 
-While the methods and tools of a Volunteer's service may change and adapt to fit the identified need of their host community, what remains constant is their dedication to use their time, skills, and resources in a way that will have the most positive impact.
+Peace Corps' mission, we recall, is to promote world peace and friendship through the efforts of our Volunteers who dedicate themselves to serve in international communities that request it.
+
+There is much to be gained by grounding ourselves in the Peace Corps foundation of service, empathy, and sustainaibility, all the while looking through a lens of data, information, and technology. The two domains have much to learn from one another, and even more to offer.
+
+What we see in the ICT4D landscape within Peace Corps is that while the tools may change over time, what remains constant is the central drive of all Peace Corps Volunteers—to start where they are, with what they have, to do what they can to make a better, more inclusive, more connected world.
 
 
 
@@ -35,6 +39,10 @@ The reality is that our economic, social and political life in the 21st century 
 
 
 ## Volunteers are serving in the digital age
+
+Communities where Volunteers serve are no longer the isolated, connectivity oasis’ they once were. They have access to information and digital services never before within their reach and they have new opportunities to influence the world around them. Volunteers can now communicate electronically not just with their counterparts, communities, and Peace Corps staff within the country, but also with friends, family, and experts across the globe—at any hour, night or day.
+
+The world is now more interconnected, informed, and able to access, find, and create information than at any time in human history. This global connectivity illustrates that opportunities for Peace Corps Volunteers to more effectively carry out the mission of world peace, cross-cultural understanding, and grassroots development are both evident and vital.
 
 There are four reasons underlying Peace Corps’ investment in ICT opportunities at the local and global scale:
 

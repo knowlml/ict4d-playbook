@@ -5,6 +5,10 @@ permalink: design-thinking/
 
 <p class="lead">Volunteers use design thinking and promote creative capacity-building to respond to the challenges of their host communities and counterparts. They investigate the needs, context, and assets of their environment and use cooperative problem-solving to build towards sustainable solutions.</p>
 
+Volunteer activities include:
+
+- Using design thinking and creative capacticy building (CCB) to supplement PACA (Participatory Analysis for Community Actions)
+- Conduct CCB for 
 
 
 ___

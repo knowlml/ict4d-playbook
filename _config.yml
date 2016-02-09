@@ -34,8 +34,6 @@ meta:
           slug: 'why-ict4d'
         - title: 'What is ICT4D?'
           slug: 'what-is-ict4d'
-        - title: 'Approach'
-          slug: 'approach'
         - title: 'Strategy'
           slug: 'strategy'
         - title: 'Principles'
@@ -46,12 +44,12 @@ meta:
           slug: 'ict4d-for-volunteers'
         - title: 'ICT4D for Staff'
           slug: 'ict4d-for-staff'
-        - title: 'FAQ'
-          slug: 'faq'
-        - title: 'History'
-          slug: 'history'
-        - title: 'Glossary'
-          slug: 'glossary'
+        # - title: 'FAQ'
+        #   slug: 'faq'
+        # - title: 'History'
+        #   slug: 'history'
+        # - title: 'Glossary'
+        #   slug: 'glossary'
   program-areas:
     toc:
       chapters:

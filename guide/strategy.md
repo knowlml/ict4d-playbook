@@ -6,7 +6,7 @@ title: Strategy
 
 As Volunteers listen and learn from their communities, they become facilitators, assistants, mentors, and even leaders. They strive to adapt their skills, experiences, and insights to meaningful efforts defined and shaped by the communities themselves. ICTs comprise the tools and technologies that help them serve their communities with the greatest impact.
 
-These are the three channels or activities that Volunteers engage in at a very high level to support their communities. These activities, in turn, are how Peace Corps staff support the Volunteers. And to extend these cross-cutting activities further, this is how the ICT4D Specialist in Peace Corps Washington supports ICT4D for other Peace Corps staff and Volunteers as well.
+These are the three goals that Volunteers engage in at a very high level to support their communities. These goals, in turn, are what Peace Corps staff in-turn cascade to the Volunteers, which further cascades from Volunteer to community, and community to community.
 
 <div class="cards">
 
@@ -43,10 +43,34 @@ These are the three channels or activities that Volunteers engage in at a very h
 
 </div>
 
+> If you want to build a ship, don’t drum up people to collect wood and don’t assign them tasks and work, but rather teach them to long for the endless immensity of the sea.
+
+<p style="text-align:right;">– Antoine de Saint-Exupéry</p>
+
+As you can see, it's not simply about putting phones in the hands of Volunteers or promoting 'magic bullets' solutions.
+
+Rather, the ICT4D Initiative began with the simple mandate to help Volunteers to be more effective. There were really four areas that kept coming up time and time again as objectives for what the Initiative could offer to Peace Corps were it supported (spoiler alert—it was):
+
+- Provide a sounding board for ideas, trends, and research that are ocurring in ICT4D and that can be applied to Volunteers.
+- Get a sense for what Volunteers are doing in the field and how to address their challenges and needs more routinely, efficiently, and from a wider scope.
+- Ensure that lines of communication, protocol, and policies are clear and effective.
+- Work to make ICT4D a global priority that helps Peace Corps achieve its strategic goals.
+
+Thinking through these lenses of ICT4D will help Peace Corps to train our Volunteers on how to think about ICT interventions within the context of their communities.
+
+<div class="note">
+
+### The Peace Corps Niche
+
+Peace Corps Volunteers are able to have the most impact when they operate at the intersection of national priorities and resources, community priorities and assets, and the Volunteers’ own knowledge, skills, and attitudes.
+
+Recognizing that particular roles and projects are going to be more easily accessible and achievable by Volunteers is key to the Peace Corps having the as much an impact as possible.
+
+</div>
 
 ## Layers to support ICT4D globally
 
-There are four essential layers that support staff and Volunteers in their ICT4D efforts:
+Merging the goals of ICT4D for Volunteers, the mandate for the ICT4D Initiative, and the Peace Corps Niche allows us to hone on the four essential layers that support staff and Volunteers in their ICT4D efforts:
 
 - **Knowledge**: Peace Corps is managing our in-house expertise and ICT4D talent to support retention, learning, knowledge exchange, and technical assistance.
 - **Portfolio**: We are assembling and organizing a  portfolio of field-proven ICT4D solutions that can be quickly and easily adapted to the need of individual projects and communities, scaled, and sustained over time.
@@ -61,7 +85,11 @@ ___
 
 # Goals, Objectives, and Activities
 
-## 1. Empower individuals in narrowing the digital divide
+We now have the vision, the goals, and the layers of support (resources and assets) to work out the broad objectives and how we arrive there. While the objectives and activities here are not something that Volunteers nor staff need to necessarily have memorized, they are provided here for the sake of full transparency, but also importantly to see how objectives are inter-connected and leverage one another. The critical value of ICT4D efforts are that they serve as catalysts for so many other points of intervention—that to isolate them into a single area or channel is to dilute them.
+
+The goals are the three items in bold (with descriptions below); the objectives numbered within the goals, and the activities are the individual bullet points (with Specialist, staff, or Volunteer as the lead in paranthesis).
+
+## Empower individuals in narrowing the digital divide
 
 > Provide resources, guidance and institutional infrastructure to support Volunteer efforts in promoting and teaching digital literacy and transferring technology skills to counterparts, and communities, and host countries in general, and specifically towards disadvantaged populations with respect to ICT awareness and opportunities including youth, women and girls, and rural populations.
 
@@ -84,7 +112,7 @@ ___
 6. Facilitate and support digital literacy workshops, trainings, camps, and/or conferences. (*PCV*)
 	- Plan appropriate workshops and trainings.
 
-## 2. Amplify Volunteer efforts
+## Amplify Volunteer efforts
 
 > Support information and communication technologies as an enabling tool for Volunteer efforts. Amplify the efficiency, effectiveness and impact of Volunteer programs and projects. ICT serves as a means to achieve particular ends and therefore plays a role in all activities.
 
@@ -110,7 +138,7 @@ ___
 12. Facilitate and support ICT4D workshops, trainings, camps, and/or conferences. (*PCV*)
 	- Plan appropriate workshops and trainings.
 
-## 3. Support Volunteers’ use of ICTs
+## Support Volunteers’ use of ICTs
 
 > Foster communities of information and resource exchange through technological channels and opportunities. Manage communities of practice and interest in T4D areas for Peace Corps Volunteers, staff, counterparts, strategic partners, and the general public through the blended use of digital and traditional tools of communication.
 
@@ -125,9 +153,5 @@ ___
 5. Provide assistance in new and existing uses of ICT in communities of practice to new Volunteers. (*PCV*)
 6. Use existing (VRT/VRF) and pilot tools (mobile data) to contribute to the reporting of and impact stories (or case studies) of ICT4D-related programs and projects. (*PCV*)
 7. Contribute to and be a member of the ICT4D Communities of Practice. (*PCV*)
-
-
-
-
 
 

@@ -42,7 +42,6 @@
 
     <li {% if page.path contains 'guide/' %}class="Selected"{% endif %}>
       <a href="{{ guide_entry_point }}">Guide</a>
-      <li>
 
     <ul>
 
@@ -54,6 +53,7 @@
         </li>
         {% endfor %}<br /><br />&nbsp;
     </ul>
+      <li>
 
         <!-- start navigation for program-areas section -->
     <li {% if page.path contains 'program-areas' %}class="Selected"{% endif %}>
