@@ -3,7 +3,8 @@ title: Media Production
 permalink: media-production/
 ---
 
-<p class="lead"></p>
+<p class="lead">Volunteers use digital audio photography and videography in order to act as storytellers and to engage the Third Goal of Peace Corps</p>
+
 
 
 ___

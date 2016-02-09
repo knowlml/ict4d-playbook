@@ -3,7 +3,7 @@ title: Libraries and Maker Spaces
 permalink: libraries-and-maker-spaces/
 ---
 
-<p class="lead">Volunteers help to renovate, build, and support local libraries in their communities. These are spaces foster inclusivity, learning and education, creativity, problem solving, and a place for community engagement.</p>
+<p class="lead">Volunteers help to promote, build, renovate, and support local learning in their communities. These help to create spaces that foster inclusivity, learning and education, creativity, problem solving, and community engagement.</p>
 
 
 

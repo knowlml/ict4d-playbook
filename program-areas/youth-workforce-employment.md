@@ -3,7 +3,8 @@ title: Youth Workforce Employment
 permalink: youth-workforce-employment/
 ---
 
-<p class="lead">Volunteers use ICTs in extending training to more individuals at lower cost, providing a means to more broadly disseminate replicable and customizable content, providing opportunities for better learning outcomes, and enabling connections among youth and employers.</p>
+<p class="lead">Volunteers use ICTs to facilitate easier access to education, share knowledge and information more broadly, provide better and more opportunities for learning outcomes, and to connect youth and employers.</p>
+
 
 
 
